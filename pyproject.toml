@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "voice-zero-trust"
+version = "0.1.0"
+description = "동의한 참여자의 음성으로 체험하는 로컬 음성 합성 보안 교육 데모"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+  "gradio>=6.0,<7", "coqui-tts==0.27.5", "qwen-tts==0.1.1", "torch==2.8.0",
+  "torchaudio==2.8.0", "transformers>=4.57,<5",
+  "soundfile>=0.13,<1", "imageio-ffmpeg>=0.6,<1", "numpy>=2,<3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

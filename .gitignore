@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# VoiceZeroTrust local recordings and model cache
+.runtime/
