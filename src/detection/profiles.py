@@ -10,6 +10,7 @@ from .aasist import AASISTDetector
 from .audio import AcousticDetector
 
 CANDIDATE_PATH = Path(__file__).with_name("profiles") / "v2-candidate.json"
+KOREAN_PATH = Path(__file__).with_name("profiles") / "v4-korean-research.json"
 NOTICE = "합성 근거 부족은 실제 사람 또는 본인 인증을 의미하지 않습니다. 별도 채널로 신원을 확인하세요."
 
 
@@ -46,6 +47,8 @@ class DetectionProfile:
 
     def analyze(self, samples, rate):
         result = dict(self.detector.analyze(samples, rate))
+        if self.name == "korean-research" and isinstance(result.get("message"), str):
+            result["message"] = result["message"].replace("한국어 성능 미검증.", "DSD 한국어 시험 범위만 평가; 실제 통화 미검증. 비상업 연구용.")
         score = result["fake_score"]
         if score is not None:
             score = _number(score, "detector score", probability=True)
@@ -58,13 +61,18 @@ class DetectionProfile:
         return result
 
 
-def build_profile(name="baseline", device="cpu"):
+def build_profile(name="baseline", device="cpu", allow_noncommercial=False):
     if name == "baseline":
         return DetectionProfile(AcousticDetector(), "baseline", "v0.1.0-detection.1", .5, False,
                                 ("기존 모델 기본 정책 유지; 한국어 성능 미검증",))
-    if name != "candidate":
-        raise ValueError("Unknown detector profile; select baseline or candidate")
-    config = json.loads(CANDIDATE_PATH.read_text(encoding="utf-8"))
+    if name not in {"candidate", "korean-research"}:
+        raise ValueError("Unknown detector profile")
+    if name == "korean-research" and allow_noncommercial is not True:
+        raise ValueError("한국어 후보는 비상업 연구·평가 용도로만 사용할 수 있습니다. 사용 범위를 확인해 주세요.")
+    path = KOREAN_PATH if name == "korean-research" else CANDIDATE_PATH
+    config = json.loads(path.read_text(encoding="utf-8"))
+    if name == "korean-research" and (not isinstance(config, dict) or config.get("research_only") is not True or config.get("promotion_passed") is not False):
+        raise ValueError("Korean research restriction missing")
     if not isinstance(config, dict) or config.get("kind") != "aasist" or config.get("variant") not in {"AASIST", "AASIST-L"}:
         raise ValueError("Invalid candidate detector configuration")
     if not isinstance(config.get("release"), str) or not config["release"].strip():

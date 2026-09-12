@@ -1,0 +1,33 @@
+{
+  "manifest_sha256": "75f38fb7f618d2ec21f7ebaefc8ba6644100c0d2eceb24c30b06aef38cad077f",
+  "backbone_revision": "a04c9863f63d44471dde8a6abcb3b082b07cd1d1",
+  "configs": [
+    {
+      "name": "clean",
+      "C": 0.01,
+      "augment": false
+    },
+    {
+      "name": "augmented",
+      "C": 0.01,
+      "augment": true
+    }
+  ],
+  "selection": "maximum calibration recall subject to calibration FPR <= .05; tie clean first",
+  "conditions": [
+    "original",
+    "bandlimit-8k",
+    "noise-20db"
+  ],
+  "test_conditions": [
+    "original",
+    "bandlimit-8k",
+    "noise-20db",
+    "first-2s",
+    "first-3s",
+    "first-5s"
+  ],
+  "promotion_rule": "research only regardless of score; no commercial or production promotion",
+  "quality_gate": "test all-synthetic detection >= .80, FPR <= .05, each unseen-generator detection >= .50, errors 0, coverage 1",
+  "script_sha256": "60bbe305ca67e3ef18d219ae7b444ccf494ed24c879d4d42a7b2a1dca40552c7"
+}

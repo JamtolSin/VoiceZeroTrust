@@ -1,0 +1,1266 @@
+{
+  "population": "DSD Korean grouped holdout; not verified text-disjoint, noncommercial research",
+  "overall": {
+    "xlsr": {
+      "threshold": 0.5,
+      "positive_label": "synthetic",
+      "total": 4660,
+      "classified": 4660,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 2400,
+        "synthetic": 2260
+      },
+      "confusion": {
+        "tp": 1214,
+        "fn": 1046,
+        "fp": 0,
+        "tn": 2400
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 1.0,
+      "recall": 0.5371681415929204,
+      "specificity": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.46283185840707963,
+      "accuracy": 0.7755364806866952,
+      "balanced_accuracy": 0.7685840707964602,
+      "synthetic_detection_rate_all": 0.5371681415929204,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    },
+    "v2": {
+      "threshold": 0.7676075931865732,
+      "positive_label": "synthetic",
+      "total": 4660,
+      "classified": 4660,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 2400,
+        "synthetic": 2260
+      },
+      "confusion": {
+        "tp": 851,
+        "fn": 1409,
+        "fp": 2075,
+        "tn": 325
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 0.2908407382091593,
+      "recall": 0.3765486725663717,
+      "specificity": 0.13541666666666666,
+      "fpr": 0.8645833333333334,
+      "fnr": 0.6234513274336283,
+      "accuracy": 0.25236051502145923,
+      "balanced_accuracy": 0.25598266961651917,
+      "synthetic_detection_rate_all": 0.3765486725663717,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    },
+    "v4": {
+      "threshold": 0.15974449457043602,
+      "positive_label": "synthetic",
+      "total": 4660,
+      "classified": 4660,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 2400,
+        "synthetic": 2260
+      },
+      "confusion": {
+        "tp": 2062,
+        "fn": 198,
+        "fp": 79,
+        "tn": 2321
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 0.9631013545072397,
+      "recall": 0.9123893805309734,
+      "specificity": 0.9670833333333333,
+      "fpr": 0.032916666666666664,
+      "fnr": 0.08761061946902655,
+      "accuracy": 0.9405579399141631,
+      "balanced_accuracy": 0.9397363569321533,
+      "synthetic_detection_rate_all": 0.9123893805309734,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    }
+  },
+  "by_source": {
+    "AIHUB": {
+      "xlsr": {
+        "threshold": 0.5,
+        "positive_label": "synthetic",
+        "total": 2400,
+        "classified": 2400,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 2400,
+          "synthetic": 0
+        },
+        "confusion": {
+          "tp": 0,
+          "fn": 0,
+          "fp": 0,
+          "tn": 2400
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": null,
+        "recall": null,
+        "specificity": 1.0,
+        "fpr": 0.0,
+        "fnr": null,
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "synthetic_detection_rate_all": null,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "v2": {
+        "threshold": 0.7676075931865732,
+        "positive_label": "synthetic",
+        "total": 2400,
+        "classified": 2400,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 2400,
+          "synthetic": 0
+        },
+        "confusion": {
+          "tp": 0,
+          "fn": 0,
+          "fp": 2075,
+          "tn": 325
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 0.0,
+        "recall": null,
+        "specificity": 0.13541666666666666,
+        "fpr": 0.8645833333333334,
+        "fnr": null,
+        "accuracy": 0.13541666666666666,
+        "balanced_accuracy": null,
+        "synthetic_detection_rate_all": null,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "v4": {
+        "threshold": 0.15974449457043602,
+        "positive_label": "synthetic",
+        "total": 2400,
+        "classified": 2400,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 2400,
+          "synthetic": 0
+        },
+        "confusion": {
+          "tp": 0,
+          "fn": 0,
+          "fp": 79,
+          "tn": 2321
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 0.0,
+        "recall": null,
+        "specificity": 0.9670833333333333,
+        "fpr": 0.032916666666666664,
+        "fnr": null,
+        "accuracy": 0.9670833333333333,
+        "balanced_accuracy": null,
+        "synthetic_detection_rate_all": null,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      }
+    },
+    "Elevenlabs": {
+      "xlsr": {
+        "threshold": 0.5,
+        "positive_label": "synthetic",
+        "total": 300,
+        "classified": 300,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 0,
+          "synthetic": 300
+        },
+        "confusion": {
+          "tp": 62,
+          "fn": 238,
+          "fp": 0,
+          "tn": 0
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 0.20666666666666667,
+        "specificity": null,
+        "fpr": null,
+        "fnr": 0.7933333333333333,
+        "accuracy": 0.20666666666666667,
+        "balanced_accuracy": null,
+        "synthetic_detection_rate_all": 0.20666666666666667,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "v2": {
+        "threshold": 0.7676075931865732,
+        "positive_label": "synthetic",
+        "total": 300,
+        "classified": 300,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 0,
+          "synthetic": 300
+        },
+        "confusion": {
+          "tp": 216,
+          "fn": 84,
+          "fp": 0,
+          "tn": 0
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 0.72,
+        "specificity": null,
+        "fpr": null,
+        "fnr": 0.28,
+        "accuracy": 0.72,
+        "balanced_accuracy": null,
+        "synthetic_detection_rate_all": 0.72,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "v4": {
+        "threshold": 0.15974449457043602,
+        "positive_label": "synthetic",
+        "total": 300,
+        "classified": 300,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 0,
+          "synthetic": 300
+        },
+        "confusion": {
+          "tp": 297,
+          "fn": 3,
+          "fp": 0,
+          "tn": 0
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 0.99,
+        "specificity": null,
+        "fpr": null,
+        "fnr": 0.01,
+        "accuracy": 0.99,
+        "balanced_accuracy": null,
+        "synthetic_detection_rate_all": 0.99,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      }
+    },
+    "MMSTTS": {
+      "xlsr": {
+        "threshold": 0.5,
+        "positive_label": "synthetic",
+        "total": 200,
+        "classified": 200,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 0,
+          "synthetic": 200
+        },
+        "confusion": {
+          "tp": 199,
+          "fn": 1,
+          "fp": 0,
+          "tn": 0
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 0.995,
+        "specificity": null,
+        "fpr": null,
+        "fnr": 0.005,
+        "accuracy": 0.995,
+        "balanced_accuracy": null,
+        "synthetic_detection_rate_all": 0.995,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "v2": {
+        "threshold": 0.7676075931865732,
+        "positive_label": "synthetic",
+        "total": 200,
+        "classified": 200,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 0,
+          "synthetic": 200
+        },
+        "confusion": {
+          "tp": 200,
+          "fn": 0,
+          "fp": 0,
+          "tn": 0
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "specificity": null,
+        "fpr": null,
+        "fnr": 0.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "synthetic_detection_rate_all": 1.0,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "v4": {
+        "threshold": 0.15974449457043602,
+        "positive_label": "synthetic",
+        "total": 200,
+        "classified": 200,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 0,
+          "synthetic": 200
+        },
+        "confusion": {
+          "tp": 26,
+          "fn": 174,
+          "fp": 0,
+          "tn": 0
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 0.13,
+        "specificity": null,
+        "fpr": null,
+        "fnr": 0.87,
+        "accuracy": 0.13,
+        "balanced_accuracy": null,
+        "synthetic_detection_rate_all": 0.13,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      }
+    },
+    "MeloTTS": {
+      "xlsr": {
+        "threshold": 0.5,
+        "positive_label": "synthetic",
+        "total": 100,
+        "classified": 100,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 0,
+          "synthetic": 100
+        },
+        "confusion": {
+          "tp": 68,
+          "fn": 32,
+          "fp": 0,
+          "tn": 0
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 0.68,
+        "specificity": null,
+        "fpr": null,
+        "fnr": 0.32,
+        "accuracy": 0.68,
+        "balanced_accuracy": null,
+        "synthetic_detection_rate_all": 0.68,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "v2": {
+        "threshold": 0.7676075931865732,
+        "positive_label": "synthetic",
+        "total": 100,
+        "classified": 100,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 0,
+          "synthetic": 100
+        },
+        "confusion": {
+          "tp": 100,
+          "fn": 0,
+          "fp": 0,
+          "tn": 0
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "specificity": null,
+        "fpr": null,
+        "fnr": 0.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "synthetic_detection_rate_all": 1.0,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "v4": {
+        "threshold": 0.15974449457043602,
+        "positive_label": "synthetic",
+        "total": 100,
+        "classified": 100,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 0,
+          "synthetic": 100
+        },
+        "confusion": {
+          "tp": 94,
+          "fn": 6,
+          "fp": 0,
+          "tn": 0
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 0.94,
+        "specificity": null,
+        "fpr": null,
+        "fnr": 0.06,
+        "accuracy": 0.94,
+        "balanced_accuracy": null,
+        "synthetic_detection_rate_all": 0.94,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      }
+    },
+    "SeamlessM4T-TTS": {
+      "xlsr": {
+        "threshold": 0.5,
+        "positive_label": "synthetic",
+        "total": 153,
+        "classified": 153,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 0,
+          "synthetic": 153
+        },
+        "confusion": {
+          "tp": 136,
+          "fn": 17,
+          "fp": 0,
+          "tn": 0
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 0.8888888888888888,
+        "specificity": null,
+        "fpr": null,
+        "fnr": 0.1111111111111111,
+        "accuracy": 0.8888888888888888,
+        "balanced_accuracy": null,
+        "synthetic_detection_rate_all": 0.8888888888888888,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "v2": {
+        "threshold": 0.7676075931865732,
+        "positive_label": "synthetic",
+        "total": 153,
+        "classified": 153,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 0,
+          "synthetic": 153
+        },
+        "confusion": {
+          "tp": 136,
+          "fn": 17,
+          "fp": 0,
+          "tn": 0
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 0.8888888888888888,
+        "specificity": null,
+        "fpr": null,
+        "fnr": 0.1111111111111111,
+        "accuracy": 0.8888888888888888,
+        "balanced_accuracy": null,
+        "synthetic_detection_rate_all": 0.8888888888888888,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "v4": {
+        "threshold": 0.15974449457043602,
+        "positive_label": "synthetic",
+        "total": 153,
+        "classified": 153,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 0,
+          "synthetic": 153
+        },
+        "confusion": {
+          "tp": 150,
+          "fn": 3,
+          "fp": 0,
+          "tn": 0
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 0.9803921568627451,
+        "specificity": null,
+        "fpr": null,
+        "fnr": 0.0196078431372549,
+        "accuracy": 0.9803921568627451,
+        "balanced_accuracy": null,
+        "synthetic_detection_rate_all": 0.9803921568627451,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      }
+    },
+    "VITS-AIHUB": {
+      "xlsr": {
+        "threshold": 0.5,
+        "positive_label": "synthetic",
+        "total": 1507,
+        "classified": 1507,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 0,
+          "synthetic": 1507
+        },
+        "confusion": {
+          "tp": 749,
+          "fn": 758,
+          "fp": 0,
+          "tn": 0
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 0.49701393497013935,
+        "specificity": null,
+        "fpr": null,
+        "fnr": 0.5029860650298607,
+        "accuracy": 0.49701393497013935,
+        "balanced_accuracy": null,
+        "synthetic_detection_rate_all": 0.49701393497013935,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "v2": {
+        "threshold": 0.7676075931865732,
+        "positive_label": "synthetic",
+        "total": 1507,
+        "classified": 1507,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 0,
+          "synthetic": 1507
+        },
+        "confusion": {
+          "tp": 199,
+          "fn": 1308,
+          "fp": 0,
+          "tn": 0
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 0.1320504313205043,
+        "specificity": null,
+        "fpr": null,
+        "fnr": 0.8679495686794957,
+        "accuracy": 0.1320504313205043,
+        "balanced_accuracy": null,
+        "synthetic_detection_rate_all": 0.1320504313205043,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "v4": {
+        "threshold": 0.15974449457043602,
+        "positive_label": "synthetic",
+        "total": 1507,
+        "classified": 1507,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 0,
+          "synthetic": 1507
+        },
+        "confusion": {
+          "tp": 1495,
+          "fn": 12,
+          "fp": 0,
+          "tn": 0
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 0.9920371599203716,
+        "specificity": null,
+        "fpr": null,
+        "fnr": 0.007962840079628402,
+        "accuracy": 0.9920371599203716,
+        "balanced_accuracy": null,
+        "synthetic_detection_rate_all": 0.9920371599203716,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      }
+    }
+  },
+  "robustness": {
+    "original": {
+      "skipped": 0,
+      "metrics": {
+        "xlsr": {
+          "threshold": 0.5,
+          "positive_label": "synthetic",
+          "total": 96,
+          "classified": 96,
+          "coverage": 1.0,
+          "class_totals": {
+            "real": 16,
+            "synthetic": 80
+          },
+          "confusion": {
+            "tp": 48,
+            "fn": 32,
+            "fp": 0,
+            "tn": 16
+          },
+          "abstained": {
+            "real": 0,
+            "synthetic": 0
+          },
+          "errors": 0,
+          "precision": 1.0,
+          "recall": 0.6,
+          "specificity": 1.0,
+          "fpr": 0.0,
+          "fnr": 0.4,
+          "accuracy": 0.6666666666666666,
+          "balanced_accuracy": 0.8,
+          "synthetic_detection_rate_all": 0.6,
+          "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+        },
+        "v2": {
+          "threshold": 0.7676075931865732,
+          "positive_label": "synthetic",
+          "total": 96,
+          "classified": 96,
+          "coverage": 1.0,
+          "class_totals": {
+            "real": 16,
+            "synthetic": 80
+          },
+          "confusion": {
+            "tp": 59,
+            "fn": 21,
+            "fp": 14,
+            "tn": 2
+          },
+          "abstained": {
+            "real": 0,
+            "synthetic": 0
+          },
+          "errors": 0,
+          "precision": 0.8082191780821918,
+          "recall": 0.7375,
+          "specificity": 0.125,
+          "fpr": 0.875,
+          "fnr": 0.2625,
+          "accuracy": 0.6354166666666666,
+          "balanced_accuracy": 0.43125,
+          "synthetic_detection_rate_all": 0.7375,
+          "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+        },
+        "v4": {
+          "threshold": 0.15974449457043602,
+          "positive_label": "synthetic",
+          "total": 96,
+          "classified": 96,
+          "coverage": 1.0,
+          "class_totals": {
+            "real": 16,
+            "synthetic": 80
+          },
+          "confusion": {
+            "tp": 64,
+            "fn": 16,
+            "fp": 0,
+            "tn": 16
+          },
+          "abstained": {
+            "real": 0,
+            "synthetic": 0
+          },
+          "errors": 0,
+          "precision": 1.0,
+          "recall": 0.8,
+          "specificity": 1.0,
+          "fpr": 0.0,
+          "fnr": 0.2,
+          "accuracy": 0.8333333333333334,
+          "balanced_accuracy": 0.9,
+          "synthetic_detection_rate_all": 0.8,
+          "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+        }
+      }
+    },
+    "bandlimit-8k": {
+      "skipped": 0,
+      "metrics": {
+        "xlsr": {
+          "threshold": 0.5,
+          "positive_label": "synthetic",
+          "total": 96,
+          "classified": 96,
+          "coverage": 1.0,
+          "class_totals": {
+            "real": 16,
+            "synthetic": 80
+          },
+          "confusion": {
+            "tp": 48,
+            "fn": 32,
+            "fp": 0,
+            "tn": 16
+          },
+          "abstained": {
+            "real": 0,
+            "synthetic": 0
+          },
+          "errors": 0,
+          "precision": 1.0,
+          "recall": 0.6,
+          "specificity": 1.0,
+          "fpr": 0.0,
+          "fnr": 0.4,
+          "accuracy": 0.6666666666666666,
+          "balanced_accuracy": 0.8,
+          "synthetic_detection_rate_all": 0.6,
+          "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+        },
+        "v2": {
+          "threshold": 0.7676075931865732,
+          "positive_label": "synthetic",
+          "total": 96,
+          "classified": 96,
+          "coverage": 1.0,
+          "class_totals": {
+            "real": 16,
+            "synthetic": 80
+          },
+          "confusion": {
+            "tp": 59,
+            "fn": 21,
+            "fp": 13,
+            "tn": 3
+          },
+          "abstained": {
+            "real": 0,
+            "synthetic": 0
+          },
+          "errors": 0,
+          "precision": 0.8194444444444444,
+          "recall": 0.7375,
+          "specificity": 0.1875,
+          "fpr": 0.8125,
+          "fnr": 0.2625,
+          "accuracy": 0.6458333333333334,
+          "balanced_accuracy": 0.4625,
+          "synthetic_detection_rate_all": 0.7375,
+          "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+        },
+        "v4": {
+          "threshold": 0.15974449457043602,
+          "positive_label": "synthetic",
+          "total": 96,
+          "classified": 96,
+          "coverage": 1.0,
+          "class_totals": {
+            "real": 16,
+            "synthetic": 80
+          },
+          "confusion": {
+            "tp": 71,
+            "fn": 9,
+            "fp": 0,
+            "tn": 16
+          },
+          "abstained": {
+            "real": 0,
+            "synthetic": 0
+          },
+          "errors": 0,
+          "precision": 1.0,
+          "recall": 0.8875,
+          "specificity": 1.0,
+          "fpr": 0.0,
+          "fnr": 0.1125,
+          "accuracy": 0.90625,
+          "balanced_accuracy": 0.94375,
+          "synthetic_detection_rate_all": 0.8875,
+          "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+        }
+      }
+    },
+    "noise-20db": {
+      "skipped": 0,
+      "metrics": {
+        "xlsr": {
+          "threshold": 0.5,
+          "positive_label": "synthetic",
+          "total": 96,
+          "classified": 96,
+          "coverage": 1.0,
+          "class_totals": {
+            "real": 16,
+            "synthetic": 80
+          },
+          "confusion": {
+            "tp": 5,
+            "fn": 75,
+            "fp": 0,
+            "tn": 16
+          },
+          "abstained": {
+            "real": 0,
+            "synthetic": 0
+          },
+          "errors": 0,
+          "precision": 1.0,
+          "recall": 0.0625,
+          "specificity": 1.0,
+          "fpr": 0.0,
+          "fnr": 0.9375,
+          "accuracy": 0.21875,
+          "balanced_accuracy": 0.53125,
+          "synthetic_detection_rate_all": 0.0625,
+          "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+        },
+        "v2": {
+          "threshold": 0.7676075931865732,
+          "positive_label": "synthetic",
+          "total": 96,
+          "classified": 96,
+          "coverage": 1.0,
+          "class_totals": {
+            "real": 16,
+            "synthetic": 80
+          },
+          "confusion": {
+            "tp": 22,
+            "fn": 58,
+            "fp": 10,
+            "tn": 6
+          },
+          "abstained": {
+            "real": 0,
+            "synthetic": 0
+          },
+          "errors": 0,
+          "precision": 0.6875,
+          "recall": 0.275,
+          "specificity": 0.375,
+          "fpr": 0.625,
+          "fnr": 0.725,
+          "accuracy": 0.2916666666666667,
+          "balanced_accuracy": 0.325,
+          "synthetic_detection_rate_all": 0.275,
+          "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+        },
+        "v4": {
+          "threshold": 0.15974449457043602,
+          "positive_label": "synthetic",
+          "total": 96,
+          "classified": 96,
+          "coverage": 1.0,
+          "class_totals": {
+            "real": 16,
+            "synthetic": 80
+          },
+          "confusion": {
+            "tp": 80,
+            "fn": 0,
+            "fp": 12,
+            "tn": 4
+          },
+          "abstained": {
+            "real": 0,
+            "synthetic": 0
+          },
+          "errors": 0,
+          "precision": 0.8695652173913043,
+          "recall": 1.0,
+          "specificity": 0.25,
+          "fpr": 0.75,
+          "fnr": 0.0,
+          "accuracy": 0.875,
+          "balanced_accuracy": 0.625,
+          "synthetic_detection_rate_all": 1.0,
+          "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+        }
+      }
+    },
+    "first-2s": {
+      "skipped": 10,
+      "metrics": {
+        "xlsr": {
+          "threshold": 0.5,
+          "positive_label": "synthetic",
+          "total": 86,
+          "classified": 85,
+          "coverage": 0.9883720930232558,
+          "class_totals": {
+            "real": 16,
+            "synthetic": 70
+          },
+          "confusion": {
+            "tp": 47,
+            "fn": 23,
+            "fp": 0,
+            "tn": 15
+          },
+          "abstained": {
+            "real": 1,
+            "synthetic": 0
+          },
+          "errors": 0,
+          "precision": 1.0,
+          "recall": 0.6714285714285714,
+          "specificity": 1.0,
+          "fpr": 0.0,
+          "fnr": 0.32857142857142857,
+          "accuracy": 0.7294117647058823,
+          "balanced_accuracy": 0.8357142857142856,
+          "synthetic_detection_rate_all": 0.6714285714285714,
+          "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+        },
+        "v2": {
+          "threshold": 0.7676075931865732,
+          "positive_label": "synthetic",
+          "total": 86,
+          "classified": 85,
+          "coverage": 0.9883720930232558,
+          "class_totals": {
+            "real": 16,
+            "synthetic": 70
+          },
+          "confusion": {
+            "tp": 42,
+            "fn": 28,
+            "fp": 14,
+            "tn": 1
+          },
+          "abstained": {
+            "real": 1,
+            "synthetic": 0
+          },
+          "errors": 0,
+          "precision": 0.75,
+          "recall": 0.6,
+          "specificity": 0.06666666666666667,
+          "fpr": 0.9333333333333333,
+          "fnr": 0.4,
+          "accuracy": 0.5058823529411764,
+          "balanced_accuracy": 0.3333333333333333,
+          "synthetic_detection_rate_all": 0.6,
+          "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+        },
+        "v4": {
+          "threshold": 0.15974449457043602,
+          "positive_label": "synthetic",
+          "total": 86,
+          "classified": 85,
+          "coverage": 0.9883720930232558,
+          "class_totals": {
+            "real": 16,
+            "synthetic": 70
+          },
+          "confusion": {
+            "tp": 62,
+            "fn": 8,
+            "fp": 2,
+            "tn": 13
+          },
+          "abstained": {
+            "real": 1,
+            "synthetic": 0
+          },
+          "errors": 0,
+          "precision": 0.96875,
+          "recall": 0.8857142857142857,
+          "specificity": 0.8666666666666667,
+          "fpr": 0.13333333333333333,
+          "fnr": 0.11428571428571428,
+          "accuracy": 0.8823529411764706,
+          "balanced_accuracy": 0.8761904761904762,
+          "synthetic_detection_rate_all": 0.8857142857142857,
+          "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+        }
+      }
+    },
+    "first-3s": {
+      "skipped": 25,
+      "metrics": {
+        "xlsr": {
+          "threshold": 0.5,
+          "positive_label": "synthetic",
+          "total": 71,
+          "classified": 71,
+          "coverage": 1.0,
+          "class_totals": {
+            "real": 16,
+            "synthetic": 55
+          },
+          "confusion": {
+            "tp": 41,
+            "fn": 14,
+            "fp": 0,
+            "tn": 16
+          },
+          "abstained": {
+            "real": 0,
+            "synthetic": 0
+          },
+          "errors": 0,
+          "precision": 1.0,
+          "recall": 0.7454545454545455,
+          "specificity": 1.0,
+          "fpr": 0.0,
+          "fnr": 0.2545454545454545,
+          "accuracy": 0.8028169014084507,
+          "balanced_accuracy": 0.8727272727272728,
+          "synthetic_detection_rate_all": 0.7454545454545455,
+          "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+        },
+        "v2": {
+          "threshold": 0.7676075931865732,
+          "positive_label": "synthetic",
+          "total": 71,
+          "classified": 71,
+          "coverage": 1.0,
+          "class_totals": {
+            "real": 16,
+            "synthetic": 55
+          },
+          "confusion": {
+            "tp": 45,
+            "fn": 10,
+            "fp": 14,
+            "tn": 2
+          },
+          "abstained": {
+            "real": 0,
+            "synthetic": 0
+          },
+          "errors": 0,
+          "precision": 0.7627118644067796,
+          "recall": 0.8181818181818182,
+          "specificity": 0.125,
+          "fpr": 0.875,
+          "fnr": 0.18181818181818182,
+          "accuracy": 0.6619718309859155,
+          "balanced_accuracy": 0.4715909090909091,
+          "synthetic_detection_rate_all": 0.8181818181818182,
+          "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+        },
+        "v4": {
+          "threshold": 0.15974449457043602,
+          "positive_label": "synthetic",
+          "total": 71,
+          "classified": 71,
+          "coverage": 1.0,
+          "class_totals": {
+            "real": 16,
+            "synthetic": 55
+          },
+          "confusion": {
+            "tp": 47,
+            "fn": 8,
+            "fp": 0,
+            "tn": 16
+          },
+          "abstained": {
+            "real": 0,
+            "synthetic": 0
+          },
+          "errors": 0,
+          "precision": 1.0,
+          "recall": 0.8545454545454545,
+          "specificity": 1.0,
+          "fpr": 0.0,
+          "fnr": 0.14545454545454545,
+          "accuracy": 0.8873239436619719,
+          "balanced_accuracy": 0.9272727272727272,
+          "synthetic_detection_rate_all": 0.8545454545454545,
+          "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+        }
+      }
+    },
+    "first-5s": {
+      "skipped": 56,
+      "metrics": {
+        "xlsr": {
+          "threshold": 0.5,
+          "positive_label": "synthetic",
+          "total": 40,
+          "classified": 40,
+          "coverage": 1.0,
+          "class_totals": {
+            "real": 12,
+            "synthetic": 28
+          },
+          "confusion": {
+            "tp": 21,
+            "fn": 7,
+            "fp": 0,
+            "tn": 12
+          },
+          "abstained": {
+            "real": 0,
+            "synthetic": 0
+          },
+          "errors": 0,
+          "precision": 1.0,
+          "recall": 0.75,
+          "specificity": 1.0,
+          "fpr": 0.0,
+          "fnr": 0.25,
+          "accuracy": 0.825,
+          "balanced_accuracy": 0.875,
+          "synthetic_detection_rate_all": 0.75,
+          "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+        },
+        "v2": {
+          "threshold": 0.7676075931865732,
+          "positive_label": "synthetic",
+          "total": 40,
+          "classified": 40,
+          "coverage": 1.0,
+          "class_totals": {
+            "real": 12,
+            "synthetic": 28
+          },
+          "confusion": {
+            "tp": 26,
+            "fn": 2,
+            "fp": 10,
+            "tn": 2
+          },
+          "abstained": {
+            "real": 0,
+            "synthetic": 0
+          },
+          "errors": 0,
+          "precision": 0.7222222222222222,
+          "recall": 0.9285714285714286,
+          "specificity": 0.16666666666666666,
+          "fpr": 0.8333333333333334,
+          "fnr": 0.07142857142857142,
+          "accuracy": 0.7,
+          "balanced_accuracy": 0.5476190476190477,
+          "synthetic_detection_rate_all": 0.9285714285714286,
+          "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+        },
+        "v4": {
+          "threshold": 0.15974449457043602,
+          "positive_label": "synthetic",
+          "total": 40,
+          "classified": 40,
+          "coverage": 1.0,
+          "class_totals": {
+            "real": 12,
+            "synthetic": 28
+          },
+          "confusion": {
+            "tp": 14,
+            "fn": 14,
+            "fp": 0,
+            "tn": 12
+          },
+          "abstained": {
+            "real": 0,
+            "synthetic": 0
+          },
+          "errors": 0,
+          "precision": 1.0,
+          "recall": 0.5,
+          "specificity": 1.0,
+          "fpr": 0.0,
+          "fnr": 0.5,
+          "accuracy": 0.65,
+          "balanced_accuracy": 0.75,
+          "synthetic_detection_rate_all": 0.5,
+          "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+        }
+      }
+    }
+  },
+  "promotion_passed": false,
+  "default_changed": false,
+  "quality_gate": {
+    "rule": "test all-synthetic detection >= .80, FPR <= .05, each unseen-generator detection >= .50, errors 0, coverage 1",
+    "passed": false
+  }
+}

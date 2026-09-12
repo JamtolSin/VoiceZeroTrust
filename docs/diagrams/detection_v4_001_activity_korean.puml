@@ -1,0 +1,30 @@
+@startuml
+skinparam defaultFontName Malgun Gothic
+skinparam shadowing false
+skinparam backgroundColor white
+skinparam activity {
+  BackgroundColor #EFF6FF
+  BorderColor #64748B
+  FontSize 16
+}
+title 한국어 탐지 로봇의 공부와 시험
+start
+:**한국어 문제집을 준비해요**\nDSD의 실제 소리와 합성 소리\n비상업 연구용으로만 사용;
+:**문제집을 검사해요**\n깨진 파일·중복·출처를 확인\nSNS 수집 자료는 우선 제외;
+:**같은 사람의 문제는 한 묶음으로**\n원본과 합성 파생본이\n공부용과 시험용에 섞이지 않게 분리;
+fork
+  :**공부용**\n한국어 소리의 특징으로\n판단하는 부분을 학습\n잡음 있는 연습 문제도 사용;
+fork again
+  :**기준 확인용**\n언제 경고할지 정하고\n후보 하나를 선택;
+fork again
+  :**시험용**\n학습에 쓰지 않고 보관\n일부 생성기는 전부 여기 배치;
+end fork
+:**후보와 경고 기준을 잠가요**\n시험 점수에 맞춰\n답 고르는 기준을 바꾸지 않음;
+:**같은 시험을 세 로봇이 풀어요**\n기존 XLS-R / v2 / 한국어 v4\n찾은 합성 + 잘못 경고한 사람 소리\n생성기별·짧은 음성별로 따로 확인;
+:**성적표와 한계를 함께 공개해요**\n개선 여부는 실제 측정표로 판단\n기본 모델은 자동 교체하지 않음;
+stop
+legend bottom
+  메타데이터의 화자 ID로 나눕니다. 문장 독립성은 보장하지 않습니다.
+  합성 소리를 찾는 시험이지, 범죄나 본인을 확정하는 시험은 아닙니다.
+endlegend
+@enduml

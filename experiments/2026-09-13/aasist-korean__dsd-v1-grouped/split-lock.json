@@ -1,0 +1,32 @@
+{
+  "manifest_sha256": "75f38fb7f618d2ec21f7ebaefc8ba6644100c0d2eceb24c30b06aef38cad077f",
+  "counts": {
+    "test/real": 2400,
+    "train/real": 11599,
+    "calibration/real": 2300,
+    "test/synthetic": 2260,
+    "train/synthetic": 7369,
+    "calibration/synthetic": 1480
+  },
+  "source_counts": {
+    "AIHUB": 16299,
+    "Elevenlabs": 300,
+    "MeloTTS": 100,
+    "SeamlessM4T-TTS": 153,
+    "MMSTTS": 200,
+    "VITS-AIHUB": 10356
+  },
+  "decoded": 27456,
+  "unique": 27408,
+  "duplicate_pcm": 48,
+  "excluded": 1972,
+  "split_rule": "core speaker + byte/PCM duplicate connected groups; seeded 70/15/15; other generators entirely test",
+  "filename_alias": "MeloTTS_ -> MellowTTS_ for MeloTTS source only; numeric IDs preserved (100 Korean entries)",
+  "limitations": [
+    "Source speaker IDs not independently verified",
+    "Text lineage unavailable; no text-disjoint claim",
+    "Noncommercial research only",
+    "SNS excluded",
+    "Model pretraining overlap unknown"
+  ]
+}

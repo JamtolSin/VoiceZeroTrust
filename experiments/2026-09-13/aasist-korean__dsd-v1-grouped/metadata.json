@@ -1,0 +1,25 @@
+{
+  "release": "v0.4.0-detection.1",
+  "created_at": "2026-09-12T17:40:55.401995+00:00",
+  "dataset": "DSD-Corpus v1",
+  "dataset_url": "https://zenodo.org/records/13788455",
+  "authors": "AISRC, Soongsil University; Doan et al., Trident of Poseidon (ACM CCS 2024)",
+  "license_scope": "CC-BY-NC-4.0 dataset; this experiment and candidate restricted to noncommercial research/evaluation",
+  "model": "NAVER AASIST a04c9863f63d44471dde8a6abcb3b082b07cd1d1 frozen + Korean trained logistic head",
+  "versions": {
+    "torch": "2.8.0+cu128",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "soundfile": "0.14.0",
+    "transformers": "4.57.3"
+  },
+  "promotion_passed": false,
+  "default_changed": false,
+  "script_sha256": {
+    "prepare_dsd.py": "a33712469440da747b02cf281a7677e32802c2882b46443071884b7a43b2538e",
+    "prepare_dsd_korean.py": "6b86911b8020a1528aa3d2f1edb82c4aa7c8d89d9ca57139692de95c1ac9afe1",
+    "train_dsd_korean.py": "60bbe305ca67e3ef18d219ae7b444ccf494ed24c879d4d42a7b2a1dca40552c7",
+    "evaluate_dsd_korean.py": "6f0fde9815285f69349de90be936627570da29773f979f425288034401e7ca44"
+  }
+}
