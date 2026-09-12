@@ -93,6 +93,7 @@ def run_experiment(source, consent, external=None, backend=None):
                                "score": "mean_positive_frame_probability", "threshold": 0.5,
                                "threshold_calibrated": False, "crop_start_seconds": 0},
                   "limitations": ["워터마크는 학습 방지를 보장하지 않습니다.",
+                                  "unmarked_control은 이번 실행에서 표식을 추가하지 않은 대조군입니다. 기존 표식이 없음을 인증하지 않으며 높은 점수는 기존 표식 또는 오탐일 수 있습니다.",
                                   "복제를 통한 표식 전달은 검증되지 않았습니다.",
                                   "표식 점수는 보이스피싱 확률 또는 신원 인증이 아닙니다.",
                                   "대조군 한 파일은 모집단 오탐률을 추정하지 못합니다."], "trials": []}
