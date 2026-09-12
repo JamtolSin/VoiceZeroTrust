@@ -1,0 +1,11 @@
+{
+  "revision": "a04c9863f63d44471dde8a6abcb3b082b07cd1d1",
+  "conditions": [
+    "original",
+    "bandlimit-8k",
+    "noise-20db"
+  ],
+  "source_sha256": "1638c67a914ac98601bd719146c9327c4b3c9d20efa13fcf2ca6259c29b69f50",
+  "augmentation_code_sha256": "0e67cf143870b343f9f735bd34414f360dbf2ebf0b01b12e68b32ef798097bcf",
+  "population": "Previously inspected Stafford development only; NOT fresh test"
+}

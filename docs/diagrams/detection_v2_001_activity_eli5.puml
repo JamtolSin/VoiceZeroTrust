@@ -1,0 +1,29 @@
+@startuml
+skinparam defaultFontName Malgun Gothic
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam ArrowColor #475569
+skinparam activity {
+  BackgroundColor #EFF6FF
+  BorderColor #64748B
+  FontSize 16
+}
+title 음성 탐지 로봇, 무엇을 바꿨나요?
+start
+:**1. 새 로봇 후보를 비교했어요**\n기존 XLS-R과 AASIST 계열을 비교;
+:**2. 판단하는 부분을 공부시켰어요**\nAASIST의 소리 특징을 찾는 부분은 그대로\n그 특징으로 진짜·합성을 고르는 부분만 학습;
+:**3. 연습과 확인 문제를 나눴어요**\n연습 1,466개 / 확인 184개\n같은 출처로 묶인 문제는 양쪽에 섞지 않음;
+:**4. 답을 고르는 기준을 잠갔어요**\n후보와 경고 기준을 먼저 확정\n시험 결과를 보고 기준을 다시 바꾸지 않음;
+:**5. 다른 문제집으로 시험했어요**\nDeepVoice 음성 5,053개\n실제 사람 628개 + AI 합성 4,425개;
+:**합성 소리를 더 많이 찾았어요**\n기존 5.15% → 새 후보 63.91%\n\n**하지만 사람 소리에도 너무 자주 경고했어요**\n잘못된 경고 0.16% → 49.36%;
+if (잘못된 경고가\n목표 5% 이하인가요?) then (아니요)
+  :**기본 모델로 교체하지 않았어요**\n새 후보는 연구용 선택지로만 제공\n기존 모델도 안전을 보장하지는 않음;
+endif
+:**다음 숙제**\n한국어 자료 확보와 추가 학습\n잡음·통화 환경에서도 다시 시험하기;
+stop
+legend bottom
+  합성 탐지율: 전체 합성 파일 기준 (판단 보류 포함)
+  잘못된 경고율: 판별한 실제 사람 파일 기준
+  AI 합성 여부를 보는 시험이지, 범죄 여부를 확정하는 시험은 아닙니다.
+endlegend
+@enduml

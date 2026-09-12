@@ -1,0 +1,27 @@
+{
+  "release": "v0.3.0-detection.1",
+  "archived_at": "2026-09-12T12:52:22.416250+00:00",
+  "dataset": "garystafford/deepfake-audio-detection",
+  "dataset_revision": "fcf5344bb7f82b54b6b932291326d29750ef1e82",
+  "license": "CC-BY-4.0; Gary Stafford; derived evaluation statistics and trained heads",
+  "dataset_url": "https://huggingface.co/datasets/garystafford/deepfake-audio-detection",
+  "model": "NAVER AASIST frozen encoder + logistic heads",
+  "model_revision": "a04c9863f63d44471dde8a6abcb3b082b07cd1d1",
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "torch": "2.8.0+cu128"
+  },
+  "files": 1650,
+  "real": 930,
+  "synthetic": 720,
+  "source_groups": 34,
+  "fresh_external_test": false,
+  "promotion_passed": false,
+  "script_sha256": {
+    "scripts/prepare_v3_features.py": "380cc53d5d6356114669d921a7d63987c4b8dcfe04215390787502644eff834d",
+    "scripts/evaluate_v3.py": "4dcb2db01c40bdd988c93a02d4db6246e75b75388f80a7b9345009700e348b34",
+    "src/evaluation/augmentation.py": "0e67cf143870b343f9f735bd34414f360dbf2ebf0b01b12e68b32ef798097bcf"
+  }
+}

@@ -1,0 +1,68 @@
+"""Archive development measurements without audio or voice embeddings."""
+from datetime import datetime, timezone
+import hashlib
+from importlib.metadata import version
+import json
+from pathlib import Path
+import sys
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+
+def main():
+    from src.evaluation.pipeline import write_json
+    source = ROOT / ".runtime/evaluation/detection-v3"
+    dest = ROOT / "experiments/2026-09-12/aasist-aug-lowfpr__stafford-groupcv"
+    dest.mkdir(parents=True, exist_ok=True)
+    report = json.loads((source / "report.json").read_text(encoding="utf-8"))
+    for name in ("features-spec.json", "evaluation-lock.json", "partitions.json", "predictions.json", "report.json", "fold-models.json"):
+        write_json(dest / name, json.loads((source / name).read_text(encoding="utf-8")))
+    write_json(dest / "metadata.json", {
+        "release": "v0.3.0-detection.1", "archived_at": datetime.now(timezone.utc).isoformat(),
+        "dataset": "garystafford/deepfake-audio-detection",
+        "dataset_revision": "fcf5344bb7f82b54b6b932291326d29750ef1e82",
+        "license": "CC-BY-4.0; Gary Stafford; derived evaluation statistics and trained heads",
+        "dataset_url": "https://huggingface.co/datasets/garystafford/deepfake-audio-detection",
+        "model": "NAVER AASIST frozen encoder + logistic heads",
+        "model_revision": "a04c9863f63d44471dde8a6abcb3b082b07cd1d1",
+        "versions": {p: version(p) for p in ("numpy", "scipy", "scikit-learn", "torch")},
+        "files": 1650, "real": 930, "synthetic": 720, "source_groups": 34,
+        "fresh_external_test": False, "promotion_passed": False,
+        "script_sha256": {name: hashlib.sha256((ROOT / name).read_bytes()).hexdigest() for name in (
+            "scripts/prepare_v3_features.py", "scripts/evaluate_v3.py", "src/evaluation/augmentation.py")}})
+    lines = ["# v0.3.0-detection.1 — 오탐 감소·증강 학습 개발 실험", "",
+             "기본 모델은 바꾸지 않았습니다. 아래 수치는 기존에 분석한 Stafford 개발 데이터의 출처 그룹 교차검증이며, 새 외부 시험이나 한국어 성능이 아닙니다.", "",
+             "원본 1,650개(실제 930 / 합성 720), 34개 출처 그룹. 원본·8kHz 왕복·20dB 잡음의 3조건을 생성했습니다. 파생 음성은 독립 표본으로 세지 않습니다.", "",
+             "## 측정표", "", "| 학습 / 보정 목표 | 시험 조건 | 합성 탐지율 | 오탐률 | 판별 비율 |", "|---|---|---:|---:|---:|"]
+    for name, conditions in report["results"].items():
+        for condition, m in conditions.items():
+            lines.append(f"| {name} | {condition} | {m['recall']:.2%} | {m['fpr']:.2%} | {m['coverage']:.2%} |")
+    lines += ["", "## 무엇을 바꿨는가", "",
+              "- AASIST 본체는 고정하고 분류기만 학습. C=0.01은 C=1보다 강하게 학습 복잡도를 제한합니다.",
+              "- 경고 기준을 정하는 보정 세트에서 오탐 목표를 5%와 1%로 비교했습니다. 목표는 외부 성능 보장이 아닙니다.",
+              "- 증강 후보는 원본·대역 제한·잡음을 함께 학습했습니다. 3개 파생본의 총 학습 가중치는 원본 1개와 같게 유지했습니다.",
+              "- 5개 외부 fold 각각에서 학습·보정·시험 그룹을 분리했습니다. 보정은 내부 3분할의 첫 fold이며 모델 학습에 사용하지 않았습니다.",
+              "- 각 원본은 모델별·조건별 시험에 한 번만 등장합니다. 같은 출처 그룹과 모든 파생 음성은 분할 경계를 넘지 않습니다.",
+              "- 시험 점수로 경고 기준을 조정하지 않았습니다. 집계 지표는 fold별 기준을 적용한 판정에서 계산합니다.", "",
+              "## 해석", "",
+              "오탐을 낮추면 미탐이 크게 늘었습니다. 원본 조건에서 비교 기준은 탐지 74.72% / 오탐 6.67%, 증강·보수적 후보는 탐지 38.33% / 오탐 1.08%였습니다. 둘 다 동일한 이번 개발 교차검증 수치입니다. v2 외부 DeepVoice 결과와 직접 비교하면 안 됩니다.", "",
+              "잡음 조건에서 증강 후보 탐지는 3.33%에 그쳤습니다. 증강을 넣었다는 사실만으로 잡음에 강한 모델이라고 볼 수 없습니다. 기본 모델 승격 및 성능 개선 완료를 주장하지 않습니다.", "",
+              "C=1 대 C=0.01의 같은 5% 보정 목표 비교에서는 원본 오탐이 오히려 늘었습니다. 원본 오탐 감소의 대부분을 증강이나 규제의 효과로 단정하지 않습니다.", "",
+              "## 한계와 다음 조건", "",
+              "이전에 확인한 개발 코퍼스입니다. 출처 숫자 ID 및 중복 파일을 묶었지만 실제 화자·문장 분리를 보장하지 않습니다. 부트스트랩 신뢰구간/새 외부 성능 보장은 제공하지 않습니다.", "",
+              "잡음은 백색 잡음이고 8kHz 왕복은 실제 통화 코덱이나 재녹음이 아닙니다. 실제 음성의 사기 의도는 라벨에 없으므로 보이스피싱 탐지율이 아닙니다. 기존 서비스의 짧은 입력·무음 보류와 달리 이 실험은 준비된 특징에 대한 분류기 비교입니다.", "",
+              "한국어 학습·실제 코덱 및 재녹음·새 독립 코퍼스 시험은 미완료입니다. 이용 조건이 확인된 한국어 자료와 최종 평가용 새 자료 확보 후 진행해야 합니다. DeepVoice를 반복 조정용으로 사용하지 않았습니다.", "",
+              "## 재현", "", "```powershell", ".venv\\Scripts\\python.exe scripts/prepare_v3_features.py",
+              ".venv\\Scripts\\python.exe scripts/evaluate_v3.py", ".venv\\Scripts\\python.exe scripts/archive_detection_v3.py", "```", "",
+              "evaluation-lock.json 생성 후 평가는 재실행/덮어쓰기를 거절합니다. 새 설계는 새 실험 디렉터리를 사용해야 합니다. 원본 음성·임베딩·개인 경로는 공개하지 않습니다. fold-models.json은 음성 임베딩이 아닌 작은 분류기 파라미터입니다.", "",
+              "출처: [Gary Stafford 데이터셋](https://huggingface.co/datasets/garystafford/deepfake-audio-detection), [NAVER AASIST](https://github.com/clovaai/aasist). 고정 revision과 환경은 metadata.json에 기록했습니다."]
+    body = "\n".join(lines) + "\n"
+    (dest / "README.md").write_text(body, encoding="utf-8")
+    (ROOT / "releases/v0.3.0-detection.1.md").write_text(body, encoding="utf-8")
+    write_json(dest / "checksums.json", {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in dest.iterdir() if p.name != "checksums.json"})
+    print(body)
+
+
+if __name__ == "__main__":
+    main()
