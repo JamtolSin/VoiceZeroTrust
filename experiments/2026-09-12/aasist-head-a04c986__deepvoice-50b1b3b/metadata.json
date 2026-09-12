@@ -1,0 +1,49 @@
+{
+  "release": "v0.2.0-detection.1",
+  "experiment_date": "2026-09-12",
+  "timezone": "Asia/Seoul",
+  "timestamp_precision": "date",
+  "selected_candidate": "AASIST-head",
+  "baseline_revision": "f7050b586236dc910d1157f430def2d0647b02b4",
+  "backbone_revision": "a04c9863f63d44471dde8a6abcb3b082b07cd1d1",
+  "official_assets_sha256": {
+    "models/AASIST.py": "9e0d3e80937dd0577beea7883098465a479da23a198ebc0d712abcc59b0bec50",
+    "config/AASIST.conf": "c25023331685027cce90e1b9a0d2df10aa04b2a27d9b27d5afa36e6815b0fe76",
+    "config/AASIST-L.conf": "9e2e2610b2260b421bf2083646dde4747a6a5cdd138015066d83bc61b6b214cf",
+    "models/weights/AASIST.pth": "51d2d9cf0738172f61e2a384ec50a54a55363240f67c971ed55a92435bc1a1c0",
+    "models/weights/AASIST-L.pth": "814331d088032bb4c3fa61cc014789eadeed464209dd094ab3a2dd6ffbdce27a"
+  },
+  "policy_sha256": "effe063e9ae559b85764155d006522cc404a793b539463e107c7b836d11c30f8",
+  "development_dataset": "garystafford/deepfake-audio-detection",
+  "development_revision": "fcf5344bb7f82b54b6b932291326d29750ef1e82",
+  "holdout_dataset": "SpeechAntiSpoofingBenchmarks/DeepVoice",
+  "holdout_revision": "50b1b3b92f37dadcec3c4f0a1f9a9c3f577605d0",
+  "versions": {
+    "torch": "2.8.0+cu128",
+    "transformers": "4.57.3",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "soundfile": "0.14.0",
+    "pyarrow": "25.0.1"
+  },
+  "hardware": "NVIDIA RTX 3080; Windows; Python 3.13",
+  "default_profile": "baseline",
+  "promotion_gate": {
+    "rule": "selected external FPR <= 5%, recall > baseline at 0.5, no inference errors, full coverage",
+    "passed": false
+  },
+  "pending": [
+    "Korean corpus authorization/adaptation",
+    "unseen Korean final test",
+    "codec/noise/real rerecording training",
+    "ensemble if justified by independent evidence"
+  ],
+  "script_sha256": {
+    "scripts/compare_detectors.py": "f9679c1ed2a90dc996c0c5baf064d50a224d71f4ea476578da848f9fe37b9544",
+    "scripts/select_detector.py": "236517078c2f6cdf36fd000e4ed009b7c73f00a233451bb30925201e48b34cff",
+    "scripts/evaluate_holdout.py": "a0c26a28c1717cc97fad43946ff68248cbe9fbfab967142d955ee679fa30da30",
+    "scripts/evaluate_robustness.py": "0290468e4166ded511aac2300fff4606926701dfa54c888d40dd78f5a3784890",
+    "src/detection/aasist.py": "4381b1ff8be462de75aa9d689239ff7f2d2b148bd684a75ac44074d624d92fd0"
+  }
+}

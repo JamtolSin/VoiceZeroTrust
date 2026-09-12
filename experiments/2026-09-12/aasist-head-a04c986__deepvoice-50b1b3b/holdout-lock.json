@@ -1,0 +1,13 @@
+{
+  "selection_sha256": "effe063e9ae559b85764155d006522cc404a793b539463e107c7b836d11c30f8",
+  "manifest_sha256": "1c9eecb30b0754eafb7c35832b6fbbd64b96b96b27505045192dc60fa72c7a1a",
+  "selected": "AASIST-head",
+  "thresholds": {
+    "xlsr": 0.8214493393898012,
+    "AASIST": 0.9991714954376222,
+    "AASIST-head": 0.7676075931865732,
+    "AASIST-L": 0.9994983673095704,
+    "AASIST-L-head": 0.7717488350058754
+  },
+  "comparison": "Full external corpus, locked policies; no model reselection from this output"
+}

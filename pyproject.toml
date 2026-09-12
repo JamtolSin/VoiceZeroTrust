@@ -16,9 +16,13 @@ dependencies = [
 [project.optional-dependencies]
 dev = ["pytest>=8,<10"]
 detection = ["faster-whisper>=1.2,<2"]
+evaluation = ["pyarrow==25.0.1", "scikit-learn==1.9.0", "requests>=2.32,<3"]
 
 [tool.setuptools.packages.find]
 include = ["src*"]
+
+[tool.setuptools.package-data]
+"src.detection" = ["profiles/*.json"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

@@ -1,0 +1,6968 @@
+[
+  {
+    "id": "deepvoice-04464",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07271110080182552,
+      "selected": 0.5591836478828783
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04464",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.135239377617836,
+      "selected": 0.00027053623780598415
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04464",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.0855354368686676,
+      "selected": 0.2846823966825112
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04464",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.07379700988531113,
+      "selected": 0.5591836478828783
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04464",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06860857456922531,
+      "selected": 0.88373644048353
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04478",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.32366895116865635,
+      "selected": 0.0013791177933346296
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04478",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.46095332503318787,
+      "selected": 0.009588682858845182
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04478",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.5830277800559998,
+      "selected": 0.0021597976457137283
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04478",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.20797701179981232,
+      "selected": 0.0013791177933346296
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04478",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.2428486254066229,
+      "selected": 0.001412319625526383
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04508",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.08065474964678288,
+      "selected": 0.2516319534733725
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04508",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.10773959755897522,
+      "selected": 0.003698458598234362
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04508",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.10155325382947922,
+      "selected": 0.022206471821352727
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04508",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.0751873180270195,
+      "selected": 0.2516319534733725
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04508",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07682016771286726,
+      "selected": 0.18040726533573517
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04446",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.08615611174276896,
+      "selected": 0.9999944125713444
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04446",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.08359494060277939,
+      "selected": 0.018160746141996798
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04446",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.07518064230680466,
+      "selected": 0.9997624610628307
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04446",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.07096589356660843,
+      "selected": 0.9999944125713444
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04446",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.08161009741680962,
+      "selected": 0.9999978268008608
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04456",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07678449060767889,
+      "selected": 0.0016027966822778333
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04456",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.08941370993852615,
+      "selected": 0.13677336862995362
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04456",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.09001617878675461,
+      "selected": 0.003169003100601387
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04456",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.07782718539237976,
+      "selected": 0.0016027966822778333
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04456",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07441944349557161,
+      "selected": 0.015559652028840174
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04429",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.06574856489896774,
+      "selected": 0.0006862357928234351
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04429",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.10205667465925217,
+      "selected": 0.006074702974321602
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04429",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.0752154141664505,
+      "selected": 0.021942769462856875
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04429",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06574856489896774,
+      "selected": 0.0006862357928234351
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04429",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06522912532091141,
+      "selected": 0.06666984316440636
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04460",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07404645625501871,
+      "selected": 0.07219362620810112
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04460",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.0839197114109993,
+      "selected": 0.21256080117083392
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04460",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.07717158645391464,
+      "selected": 0.15261334173972455
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04460",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06730178743600845,
+      "selected": 0.07219362620810112
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04460",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06919437274336815,
+      "selected": 0.14357298522059622
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04488",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07907501714570182,
+      "selected": 0.8255283542257754
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04488",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07799401879310608,
+      "selected": 0.9998731381758408
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04488",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.07686562091112137,
+      "selected": 0.8090138735918012
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04488",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06986212730407715,
+      "selected": 0.8255283542257754
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04488",
+    "label": "real",
+    "source_speaker_id": "biden",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07254187443426677,
+      "selected": 0.9606381455862519
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00370",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.062316909432411194,
+      "selected": 0.9991161956297818
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00370",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.06908679753541946,
+      "selected": 0.9979740754963531
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00370",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06288066506385803,
+      "selected": 0.9999840804900548
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00370",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-00370",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.05777435004711151,
+      "selected": 0.9996242061761991
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00539",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.09245449304580688,
+      "selected": 0.9952902919551848
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00539",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.10883782058954239,
+      "selected": 0.37901736302815026
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00539",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.08626925200223923,
+      "selected": 0.7271014936029166
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00539",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-00539",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.10022234916687012,
+      "selected": 0.9749406460789538
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00736",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.4194163680076599,
+      "selected": 0.7772011291243622
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00736",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.8197457790374756,
+      "selected": 0.011042788618778564
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00736",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.8122103214263916,
+      "selected": 0.0003367977985708626
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00736",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-00736",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.4061010479927063,
+      "selected": 0.19488784801106304
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00704",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.7455941949571881,
+      "selected": 0.8735154195858635
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00704",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.9079530239105225,
+      "selected": 0.00416626665122449
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00704",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.8905366063117981,
+      "selected": 0.004427253689960583
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00704",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.8896026611328125,
+      "selected": 0.8735154195858635
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00704",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.5988069602421352,
+      "selected": 0.7198825254485043
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00606",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07196406368166208,
+      "selected": 0.029228429535001578
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00606",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.08996693789958954,
+      "selected": 0.0054587280591557345
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00606",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.0830313116312027,
+      "selected": 0.054600216638840716
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00606",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.07217863202095032,
+      "selected": 0.029228429535001578
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00606",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06793626956641674,
+      "selected": 0.0029136615562615773
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00810",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.09826427698135376,
+      "selected": 0.9524510034302073
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00810",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.1301155537366867,
+      "selected": 0.03139909230697087
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00810",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.09318968653678894,
+      "selected": 0.9999988611966327
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00810",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.09826427698135376,
+      "selected": 0.9524510034302073
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00810",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.12925542891025543,
+      "selected": 0.8136070031646832
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00829",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.08805028970042865,
+      "selected": 0.899495590904411
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00829",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.22589460015296936,
+      "selected": 0.9555492646595566
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00829",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.1594933271408081,
+      "selected": 0.735904504233074
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00829",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.08903122693300247,
+      "selected": 0.899495590904411
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00829",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.09395910302797954,
+      "selected": 0.9966194035962078
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00242",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.10731953595365797,
+      "selected": 0.9952847318809994
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00242",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.09249089658260345,
+      "selected": 0.9989054739330451
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00242",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.10710068792104721,
+      "selected": 0.999979089665075
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00242",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.09827451407909393,
+      "selected": 0.9952847318809994
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00242",
+    "label": "synthetic",
+    "source_speaker_id": "biden",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.09572750542845045,
+      "selected": 0.9998185891846173
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04555",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07756514102220535,
+      "selected": 0.48542633151092257
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04555",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.0862540602684021,
+      "selected": 0.9285736769770578
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04555",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.07934334874153137,
+      "selected": 0.37509864954825817
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04555",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.07756514102220535,
+      "selected": 0.48542633151092257
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04555",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07020878791809082,
+      "selected": 0.6557564501356069
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04559",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.08834320732525416,
+      "selected": 0.021516846159413856
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04559",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.10592120885848999,
+      "selected": 0.47404303934425834
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04559",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.09126296639442444,
+      "selected": 0.04932643533908726
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04559",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.08622029423713684,
+      "selected": 0.021516846159413856
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04559",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.08085210089172636,
+      "selected": 0.055551037594985045
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04590",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.16859298944473267,
+      "selected": 0.17572810711719855
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04590",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.14098134636878967,
+      "selected": 0.012950761440513863
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04590",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.13755233585834503,
+      "selected": 0.00034287872337528103
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04590",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.16859298944473267,
+      "selected": 0.17572810711719855
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04590",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.12119352072477341,
+      "selected": 0.33790084575520446
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04586",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.10236388444900513,
+      "selected": 0.019805351957280153
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04586",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.10290920734405518,
+      "selected": 0.07955121661636105
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04586",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.09276002645492554,
+      "selected": 0.25453962188724033
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04586",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-04586",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07717423886060715,
+      "selected": 0.12603170501441957
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04576",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.1084371879696846,
+      "selected": 0.040927415933022564
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04576",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.14564937353134155,
+      "selected": 0.25832705999644406
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04576",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.11251169443130493,
+      "selected": 0.0010176267203224594
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04576",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-04576",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.09270341694355011,
+      "selected": 0.3424941904328005
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04614",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.21129639446735382,
+      "selected": 0.0786413905554473
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04614",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.13692738115787506,
+      "selected": 0.13842398158828745
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04614",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.18234530091285706,
+      "selected": 0.03574624923763493
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04614",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.16481679677963257,
+      "selected": 0.0786413905554473
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04614",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.1577744409441948,
+      "selected": 0.4759791957527274
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04526",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.09242720529437065,
+      "selected": 0.4079080655094775
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04526",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.12249218672513962,
+      "selected": 0.00477952187591487
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04526",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.129892960190773,
+      "selected": 0.08276620045488266
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04526",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.0912005603313446,
+      "selected": 0.4079080655094775
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04526",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.08863358696301778,
+      "selected": 0.39050110409340627
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04567",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.09736303240060806,
+      "selected": 0.17458011608971327
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04567",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.14975182712078094,
+      "selected": 0.020312238738629626
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04567",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.10389561951160431,
+      "selected": 0.5273520558961968
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04567",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-04567",
+    "label": "real",
+    "source_speaker_id": "linus",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.08710287511348724,
+      "selected": 0.03678999542569351
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01306",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.0780036449432373,
+      "selected": 0.30324294049796846
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01306",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.08747032284736633,
+      "selected": 0.18314608290202145
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01306",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.07712620496749878,
+      "selected": 0.1706252782624972
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01306",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-01306",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07782793790102005,
+      "selected": 0.8768048255697931
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01574",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.6341078451701573,
+      "selected": 0.20177571734304478
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01574",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.8920133709907532,
+      "selected": 0.07521860022162391
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01574",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.8823504447937012,
+      "selected": 0.0056724723821420095
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01574",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.7878168225288391,
+      "selected": 0.20177571734304478
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01574",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.6257445386477879,
+      "selected": 0.0007275136265062925
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00940",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.0820433646440506,
+      "selected": 0.1189689425583074
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00940",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.0921366736292839,
+      "selected": 0.0009906573831686973
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00940",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.0878286138176918,
+      "selected": 0.002924894425029496
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00940",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.0820433646440506,
+      "selected": 0.1189689425583074
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00940",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07881781458854675,
+      "selected": 0.0009904702828445488
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01273",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.13606893084943295,
+      "selected": 0.0035548275468862195
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01273",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.2085946649312973,
+      "selected": 0.0112741708920557
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01273",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.22053833305835724,
+      "selected": 0.007532681719799175
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01273",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.1746307760477066,
+      "selected": 0.0035548275468862195
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01273",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.11040942091494799,
+      "selected": 0.0007076594480057737
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01559",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.11932587836469923,
+      "selected": 0.04048530048360451
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01559",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.11230598390102386,
+      "selected": 0.11379065246353501
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01559",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.09558268636465073,
+      "selected": 0.2852668902252942
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01559",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.10315965116024017,
+      "selected": 0.04048530048360451
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01559",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.09742166953427452,
+      "selected": 0.006465229387369422
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00966",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.18331749737262726,
+      "selected": 0.03339586344914767
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00966",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.1333964467048645,
+      "selected": 0.0018713023181862842
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00966",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.11218420416116714,
+      "selected": 0.14844725967712302
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00966",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.18331749737262726,
+      "selected": 0.03339586344914767
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00966",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.22510074079036713,
+      "selected": 0.04455822835658657
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01350",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.0815691202878952,
+      "selected": 0.04713510331918838
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01350",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.0849233865737915,
+      "selected": 0.056767248520312175
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01350",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.08162424713373184,
+      "selected": 0.09358941573114202
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01350",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.0815691202878952,
+      "selected": 0.04713510331918838
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01350",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.0806942880153656,
+      "selected": 0.13790435222672195
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01493",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07837879471480846,
+      "selected": 0.8594608117047197
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01493",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.11909464001655579,
+      "selected": 0.3632663470623334
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01493",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.09157800674438477,
+      "selected": 0.637589401706442
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01493",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.07669740170240402,
+      "selected": 0.8594608117047197
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01493",
+    "label": "synthetic",
+    "source_speaker_id": "linus",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07265640515834093,
+      "selected": 0.9898276209944434
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04623",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.10782428032585553,
+      "selected": 0.998593633378248
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04623",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07766392827033997,
+      "selected": 0.040853245051451825
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04623",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.05915355309844017,
+      "selected": 0.5066308433542716
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04623",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.056667085736989975,
+      "selected": 0.998593633378248
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04623",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.14668365674359457,
+      "selected": 0.9997792697344443
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04621",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.05911925647939954,
+      "selected": 0.9185902542606924
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04621",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.0707126259803772,
+      "selected": 0.9997361922750223
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04621",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06291259080171585,
+      "selected": 0.6044437590993478
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04621",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.05293530225753784,
+      "selected": 0.9185902542606924
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04621",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.0584501214325428,
+      "selected": 0.9938992362237847
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04633",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.06263552295664947,
+      "selected": 0.9505755829811097
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04633",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.0650482028722763,
+      "selected": 0.9242860386652377
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04633",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06078196316957474,
+      "selected": 0.9300877154230718
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04633",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.058825355023145676,
+      "selected": 0.9505755829811097
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04633",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.061850513642032943,
+      "selected": 0.8485438158105064
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04629",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07232390654583772,
+      "selected": 0.0028290260230202625
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04629",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07251965254545212,
+      "selected": 0.0054248719511872864
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04629",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06315438449382782,
+      "selected": 0.0003443719502018865
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04629",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.05841054394841194,
+      "selected": 0.0028290260230202625
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04629",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06464313032726447,
+      "selected": 0.007058140447722057
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04627",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07530539482831955,
+      "selected": 0.6822477069547959
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04627",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.12395349144935608,
+      "selected": 0.08187886579331441
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04627",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-3s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-04627",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-04627",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.09099440276622772,
+      "selected": 0.9962338998340036
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04628",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.09169952837484223,
+      "selected": 0.9422380243559335
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04628",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07352673262357712,
+      "selected": 0.9471831122515639
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04628",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06858022511005402,
+      "selected": 0.9922200068971495
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04628",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06016959622502327,
+      "selected": 0.9422380243559335
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04628",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.09747119886534554,
+      "selected": 0.9958524199860506
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04634",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07200978696346283,
+      "selected": 0.05002941455449175
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04634",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.1071389764547348,
+      "selected": 0.008547501724901466
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04634",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.08549413084983826,
+      "selected": 0.0014302457428133628
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04634",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-04634",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06945450603961945,
+      "selected": 0.5431284655889622
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04632",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.05142318457365036,
+      "selected": 0.968454419472055
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04632",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.06561031937599182,
+      "selected": 0.602003981075295
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04632",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.05858359858393669,
+      "selected": 0.7020460274463042
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04632",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.05142318457365036,
+      "selected": 0.968454419472055
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04632",
+    "label": "real",
+    "source_speaker_id": "margot",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.052141644060611725,
+      "selected": 0.981449437237539
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01616",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.10286907975872357,
+      "selected": 0.9335144677058123
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01616",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.0988088846206665,
+      "selected": 0.5024269513712
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01616",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.09756499528884888,
+      "selected": 0.4195867269007829
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01616",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.10283497720956802,
+      "selected": 0.9335144677058123
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01616",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.09388747190435727,
+      "selected": 0.8004693160677534
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01613",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.10712086622204099,
+      "selected": 0.9983852126443168
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01613",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.205904021859169,
+      "selected": 0.9967685988405911
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01613",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.12466894835233688,
+      "selected": 0.9980608089474332
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01613",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.09886401146650314,
+      "selected": 0.9983852126443168
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01613",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.12498637395245689,
+      "selected": 0.9988705531862758
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01628",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.2033601999282837,
+      "selected": 0.011410182022240384
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01628",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.601967453956604,
+      "selected": 0.001960942787459353
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01628",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.21265999972820282,
+      "selected": 0.0018022374458809597
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01628",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-01628",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.13810673356056213,
+      "selected": 0.015044190533169027
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01643",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.10565152019262314,
+      "selected": 0.5533813692903313
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01643",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.1667885184288025,
+      "selected": 0.01482241830807111
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01643",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.1465262919664383,
+      "selected": 0.6157694692456482
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01643",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.10565152019262314,
+      "selected": 0.5533813692903313
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01643",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.09612587094306946,
+      "selected": 0.9462459898998591
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01583",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.08926161099225283,
+      "selected": 0.9031153620213889
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01583",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.10914815217256546,
+      "selected": 0.9930556893732355
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01583",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.09937909990549088,
+      "selected": 0.975538272777937
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01583",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.0950038880109787,
+      "selected": 0.9031153620213889
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01583",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.08203474804759026,
+      "selected": 0.8775714310902873
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01596",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.10780602693557739,
+      "selected": 0.9088677496267519
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01596",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.11001763492822647,
+      "selected": 0.9931162641345831
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01596",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.10400887578725815,
+      "selected": 0.5623331775425273
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01596",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.10780602693557739,
+      "selected": 0.9088677496267519
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01596",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.10314828902482986,
+      "selected": 0.9883797524704955
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01667",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.18542852625250816,
+      "selected": 0.0007709403461281629
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01667",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.41344526410102844,
+      "selected": 0.030487391637221233
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01667",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.22842861711978912,
+      "selected": 0.036228834807871035
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01667",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.07823783904314041,
+      "selected": 0.0007709403461281629
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01667",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.1471299814681212,
+      "selected": 0.009560733167781466
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01639",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.9021797180175781,
+      "selected": 0.6984727995324193
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01639",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-2s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-01639",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-3s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-01639",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-01639",
+    "label": "synthetic",
+    "source_speaker_id": "margot",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.9031726717948912,
+      "selected": 0.9665397062875853
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04690",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.06181113421916962,
+      "selected": 0.007592025578893799
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04690",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.06805340945720673,
+      "selected": 0.0376017542419132
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04690",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06440868228673935,
+      "selected": 0.04411156172863572
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04690",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06181113421916962,
+      "selected": 0.007592025578893799
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04690",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06265629827976227,
+      "selected": 0.020425069327341575
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04649",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.0634954155733188,
+      "selected": 0.0031911256092629664
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04649",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.0728948637843132,
+      "selected": 1.2461319415547016e-05
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04649",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.0632219910621643,
+      "selected": 0.004043368768551604
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04649",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.062400300055742264,
+      "selected": 0.0031911256092629664
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04649",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06360312302907307,
+      "selected": 0.0035735028103694826
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04691",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.05932924058288336,
+      "selected": 0.041819359797029894
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04691",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.06442798674106598,
+      "selected": 0.004481693383336112
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04691",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06020257622003555,
+      "selected": 0.0075592334783207765
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04691",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.058363161981105804,
+      "selected": 0.041819359797029894
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04691",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06012586085125804,
+      "selected": 0.016155003567918907
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04702",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.061298983969858716,
+      "selected": 0.007466763004828603
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04702",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.0693967416882515,
+      "selected": 0.001770554428227343
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04702",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06486368924379349,
+      "selected": 0.016689931232526666
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04702",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.05983855202794075,
+      "selected": 0.007466763004828603
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04702",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06172470535550799,
+      "selected": 0.004895815167106287
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04646",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.05730875954031944,
+      "selected": 0.02681126503478712
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04646",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.05984817072749138,
+      "selected": 0.40511983159765314
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04646",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.05841001868247986,
+      "selected": 0.0463581214237849
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04646",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-04646",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.057683736085891724,
+      "selected": 0.454170974640049
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04723",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.06445114811261494,
+      "selected": 0.13558178966170922
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04723",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07909785211086273,
+      "selected": 0.01072574589841861
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04723",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06946264952421188,
+      "selected": 0.022154422144776118
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04723",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06344474852085114,
+      "selected": 0.13558178966170922
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04723",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06458561370770137,
+      "selected": 0.12974046988515925
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04675",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.06253187358379364,
+      "selected": 0.07855149114615187
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04675",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.06892871856689453,
+      "selected": 0.013869719054736667
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04675",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06592091172933578,
+      "selected": 0.0030313057548311114
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04675",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.0653594359755516,
+      "selected": 0.07855149114615187
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04675",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06299528572708368,
+      "selected": 0.16378275688212893
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04685",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.06023914429048697,
+      "selected": 0.00032202823402884304
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04685",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07473376393318176,
+      "selected": 3.126939258095709e-05
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04685",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.0723339170217514,
+      "selected": 9.941562881866617e-05
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04685",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.059335481375455856,
+      "selected": 0.00032202823402884304
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04685",
+    "label": "real",
+    "source_speaker_id": "musk",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.059151558205485344,
+      "selected": 0.00013942654727887747
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01991",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.28015676353658947,
+      "selected": 0.9858302064575706
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01991",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.5257245898246765,
+      "selected": 0.8385379933358091
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01991",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.5622270107269287,
+      "selected": 0.9750226658632637
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01991",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.24353079497814178,
+      "selected": 0.9858302064575706
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01991",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.29553828069141935,
+      "selected": 0.9943410023092312
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01766",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.08814676105976105,
+      "selected": 0.956146978618106
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01766",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.12686212360858917,
+      "selected": 0.9991182008376291
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01766",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.09530559182167053,
+      "selected": 0.9993773487597497
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01766",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-01766",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.08546353876590729,
+      "selected": 0.9944550185333038
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01762",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.13703562878072262,
+      "selected": 0.7253648200866226
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01762",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07637534290552139,
+      "selected": 0.228694004183663
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01762",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.07289295643568039,
+      "selected": 0.5485277063596435
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01762",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.08361496031284332,
+      "selected": 0.7253648200866226
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01762",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.12598969973623753,
+      "selected": 0.7005225702928751
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01896",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07345665991306305,
+      "selected": 0.0014179925061642798
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01896",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.10703574120998383,
+      "selected": 0.541297393712503
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01896",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.080763079226017,
+      "selected": 0.06679039578641248
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01896",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-01896",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07600735872983932,
+      "selected": 0.012144929696105717
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02360",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.09859901666641235,
+      "selected": 0.5024271131482646
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02360",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.12445136159658432,
+      "selected": 0.9456328229935866
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02360",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.12377087026834488,
+      "selected": 0.2516750374257985
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02360",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-02360",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.08248137682676315,
+      "selected": 0.886154279961198
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01697",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.09570779757840293,
+      "selected": 0.4084117592075898
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01697",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.24755379557609558,
+      "selected": 0.4293268329119038
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01697",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.09273109585046768,
+      "selected": 0.6947168526864157
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01697",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.08699163794517517,
+      "selected": 0.4084117592075898
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01697",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.0920802014214652,
+      "selected": 0.630808870070046
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02195",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.10651709232479334,
+      "selected": 0.594316105277918
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02195",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.5179619193077087,
+      "selected": 0.8619126802555042
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02195",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.22301796078681946,
+      "selected": 0.6995128014302261
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02195",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.1161520928144455,
+      "selected": 0.594316105277918
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02195",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.10254763625562191,
+      "selected": 0.9985788974906666
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01760",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.08796879835426807,
+      "selected": 0.1947537208212638
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01760",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.2881035804748535,
+      "selected": 0.17033878031334232
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01760",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.14561942219734192,
+      "selected": 0.5768521375448308
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01760",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.08850274235010147,
+      "selected": 0.1947537208212638
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-01760",
+    "label": "synthetic",
+    "source_speaker_id": "musk",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.08862535189837217,
+      "selected": 0.6619375820409242
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04785",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.10599701479077339,
+      "selected": 0.9970382581036277
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04785",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.16919764876365662,
+      "selected": 0.6840025879772621
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04785",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.14036954939365387,
+      "selected": 0.9599469647309784
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04785",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.11515900492668152,
+      "selected": 0.9970382581036277
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04785",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.10492674633860588,
+      "selected": 0.9974495450702052
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04760",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07112536951899529,
+      "selected": 0.9999997849747835
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04760",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.08061148226261139,
+      "selected": 0.9999996520814101
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04760",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.07290025800466537,
+      "selected": 0.999999649740878
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04760",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06614289432764053,
+      "selected": 0.9999997849747835
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04760",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06699633970856667,
+      "selected": 0.9999997407274502
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04763",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.12329280469566584,
+      "selected": 0.9999953787202399
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04763",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.08158297091722488,
+      "selected": 0.9999416241413036
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04763",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.07112235575914383,
+      "selected": 0.9999841225113341
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04763",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06977302581071854,
+      "selected": 0.9999953787202399
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04763",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.09552798047661781,
+      "selected": 0.99997930312201
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04751",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.10416715698582786,
+      "selected": 0.9999992027068574
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04751",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.0842849388718605,
+      "selected": 0.9999997703727844
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04751",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.0683605894446373,
+      "selected": 0.9999991400370439
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04751",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06741856038570404,
+      "selected": 0.9999992027068574
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04751",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.11366871105773109,
+      "selected": 0.9999994710900268
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04776",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.12299507856369019,
+      "selected": 0.9999911385349762
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04776",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.15288950502872467,
+      "selected": 0.9688135251687492
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04776",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.13006702065467834,
+      "selected": 0.9990321646407793
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04776",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.12299507856369019,
+      "selected": 0.9999911385349762
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04776",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.1200786754488945,
+      "selected": 0.9999895759275244
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04741",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07376506605318614,
+      "selected": 0.9999998563384365
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04741",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.06865738332271576,
+      "selected": 0.999999999026369
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04741",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06486665457487106,
+      "selected": 0.999999994963892
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04741",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.0643165186047554,
+      "selected": 0.9999998563384365
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04741",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07194553315639496,
+      "selected": 0.9999997027868006
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04766",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.0790974103978702,
+      "selected": 0.9999997278654497
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04766",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.2358100265264511,
+      "selected": 0.9999997993668909
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04766",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.08024918287992477,
+      "selected": 0.9999983113335106
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04766",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.07405287772417068,
+      "selected": 0.9999997278654497
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04766",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07347639224358968,
+      "selected": 0.9999994955183131
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04834",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.06370648741722107,
+      "selected": 0.9999963711051979
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04834",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07164354622364044,
+      "selected": 0.9999994928958091
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04834",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06678875535726547,
+      "selected": 0.9999987308026131
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04834",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06370648741722107,
+      "selected": 0.9999963711051979
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04834",
+    "label": "real",
+    "source_speaker_id": "obama",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06356121599674225,
+      "selected": 0.9999968253001449
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00154",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.1971459463238716,
+      "selected": 0.00036963617102160265
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00154",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.4722708761692047,
+      "selected": 1.1162783994862944e-05
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00154",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.7099989652633667,
+      "selected": 2.6279070755557782e-05
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00154",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.18803352117538452,
+      "selected": 0.00036963617102160265
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00154",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.16956612467765808,
+      "selected": 0.013638900143932474
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02441",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.21803068369627,
+      "selected": 0.9999458290656852
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02441",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.13351644575595856,
+      "selected": 0.999996149645189
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02441",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.09466972947120667,
+      "selected": 0.9999633008877341
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02441",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.09955938160419464,
+      "selected": 0.9999458290656852
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02441",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.10667444889744122,
+      "selected": 0.9999948018325477
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00121",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.08133856952190399,
+      "selected": 0.9999997718028196
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00121",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.10323609411716461,
+      "selected": 0.9999999584758188
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00121",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.08508694171905518,
+      "selected": 0.9999998394791871
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-00121",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-00121",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07484287768602371,
+      "selected": 0.9999577489408514
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02550",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.09652842155524663,
+      "selected": 0.9998314903020703
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02550",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.29474228620529175,
+      "selected": 0.9996267338872958
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02550",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.11608386039733887,
+      "selected": 0.9920763739580516
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02550",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.08394916355609894,
+      "selected": 0.9998314903020703
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02550",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.0900236793926784,
+      "selected": 0.9999703813751983
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02815",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.11219449527561665,
+      "selected": 0.9999999994290032
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02815",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.1330258995294571,
+      "selected": 0.9999999974673424
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02815",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.11785446107387543,
+      "selected": 0.9999999991895019
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02815",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.11341166496276855,
+      "selected": 0.9999999994290032
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02815",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.10165608022361994,
+      "selected": 0.9999999992307502
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02622",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.076462438950936,
+      "selected": 0.9998406349541974
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02622",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07713086158037186,
+      "selected": 0.9999814656209408
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02622",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.0721702054142952,
+      "selected": 0.9999981056071066
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02622",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.07237433642148972,
+      "selected": 0.9998406349541974
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02622",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07367101187507312,
+      "selected": 0.9998421820950689
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02798",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07838232815265656,
+      "selected": 0.9999233779732765
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02798",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.09948994964361191,
+      "selected": 0.9999969507470262
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02798",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.08126889914274216,
+      "selected": 0.9999988226691116
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02798",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-02798",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07832743972539902,
+      "selected": 0.9999280311952423
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02678",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07784100621938705,
+      "selected": 0.2774888865635612
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02678",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.32538536190986633,
+      "selected": 0.0030459587665367643
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02678",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.17893527448177338,
+      "selected": 0.001757174729404947
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02678",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.07784100621938705,
+      "selected": 0.2774888865635612
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02678",
+    "label": "synthetic",
+    "source_speaker_id": "obama",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07657888531684875,
+      "selected": 0.010400802915393451
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04848",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.062106452882289886,
+      "selected": 0.999999959264949
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04848",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07162822782993317,
+      "selected": 0.9999999919051751
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04848",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.0664050355553627,
+      "selected": 0.9999999741513659
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04848",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-04848",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.059624310582876205,
+      "selected": 0.9999999061007278
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04851",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.08384038507938385,
+      "selected": 0.9998391619345331
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04851",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.08501207083463669,
+      "selected": 0.9999957524722463
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04851",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.08416270464658737,
+      "selected": 0.9970089814199445
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04851",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.08384038507938385,
+      "selected": 0.9998391619345331
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04851",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07924671471118927,
+      "selected": 0.9996794202215563
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04839",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.0661361450329423,
+      "selected": 0.9999980447060088
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04839",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07273849099874496,
+      "selected": 0.9999503392551867
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04839",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06855832040309906,
+      "selected": 0.999798620059836
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04839",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.0637134313583374,
+      "selected": 0.9999980447060088
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04839",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06259281421080232,
+      "selected": 0.9999959662823719
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04847",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.06494928151369095,
+      "selected": 0.9999803240414644
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04847",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.0697823241353035,
+      "selected": 0.8424012012722147
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04847",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06644603610038757,
+      "selected": 0.9987143949952361
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04847",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-04847",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06125837191939354,
+      "selected": 0.999977275812566
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04850",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.06274723261594772,
+      "selected": 0.9999384697947962
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04850",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.06356910616159439,
+      "selected": 0.9999994728750964
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04850",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06481558084487915,
+      "selected": 0.9999993944780575
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04850",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06274723261594772,
+      "selected": 0.9999384697947962
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04850",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06149235740303993,
+      "selected": 0.9999641656006962
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04845",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.0632678291627339,
+      "selected": 0.9999998164534213
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04845",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": null,
+      "selected": null
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04845",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06387713551521301,
+      "selected": 0.9999999600060243
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04845",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.05934619903564453,
+      "selected": 0.9999998164534213
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04845",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.05986363706844194,
+      "selected": 0.9999998383533039
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04840",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.06849959616859753,
+      "selected": 0.9999995728731906
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04840",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07926848530769348,
+      "selected": 0.9999659534370821
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04840",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.0708131417632103,
+      "selected": 0.999795218227938
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04840",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06609714776277542,
+      "selected": 0.9999995728731906
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04840",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06512619058291118,
+      "selected": 0.9999998584106867
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04841",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.06848738661834172,
+      "selected": 0.9999999592292136
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04841",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.08501606434583664,
+      "selected": 0.999972456827709
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04841",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.07142005115747452,
+      "selected": 0.9999997192151517
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04841",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.0645996481180191,
+      "selected": 0.9999999592292136
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04841",
+    "label": "real",
+    "source_speaker_id": "ryan",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06541634404233523,
+      "selected": 0.9999998857821251
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02951",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07992536450425784,
+      "selected": 0.9999997020738255
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02951",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.09614034742116928,
+      "selected": 0.999991650968379
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02951",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.07940025627613068,
+      "selected": 0.9984682885532482
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02951",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.07716106623411179,
+      "selected": 0.9999997020738255
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02951",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07464946682254474,
+      "selected": 0.9999995090174206
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02911",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.09085140004754066,
+      "selected": 0.9770160094038101
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02911",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.10174766927957535,
+      "selected": 0.9026638961811604
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02911",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.08312761783599854,
+      "selected": 0.8618731230093986
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02911",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.08693469315767288,
+      "selected": 0.9770160094038101
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02911",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.09801428640882175,
+      "selected": 0.9999202776252657
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02967",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.38567426304022473,
+      "selected": 0.9999999977732377
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02967",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.8408414721488953,
+      "selected": 0.9999995516304879
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02967",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.7633237242698669,
+      "selected": 0.999999950211345
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02967",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.3077913820743561,
+      "selected": 0.9999999977732377
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02967",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.5006207525730133,
+      "selected": 0.9999999972677607
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02977",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.20397943258285522,
+      "selected": 0.970458615879084
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02977",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.17938338220119476,
+      "selected": 0.9996192693019313
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02977",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.18617519736289978,
+      "selected": 0.8185827577201216
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02977",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-02977",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.1975136399269104,
+      "selected": 0.9970670646074052
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02909",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.06893661618232727,
+      "selected": 0.9954456474521579
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02909",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.11878586560487747,
+      "selected": 0.9340492331532648
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02909",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.08115953207015991,
+      "selected": 0.9913013542112942
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02909",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06893661618232727,
+      "selected": 0.9954456474521579
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02909",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.0712396651506424,
+      "selected": 0.9999741298764091
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02980",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.08452492207288742,
+      "selected": 0.9892274527536291
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02980",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.8442588448524475,
+      "selected": 0.9999971731381039
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02980",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.1606421023607254,
+      "selected": 0.9999368000164294
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02980",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.08452492207288742,
+      "selected": 0.9892274527536291
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02980",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.09971410781145096,
+      "selected": 0.9952895820467326
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02906",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.1119767352938652,
+      "selected": 0.9987808629617829
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02906",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.1243375837802887,
+      "selected": 0.9999726411090838
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02906",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.08802840858697891,
+      "selected": 0.9999992202270725
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02906",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-02906",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.11431743949651718,
+      "selected": 0.9994297926278696
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02971",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.5536215901374817,
+      "selected": 0.0007805489864727104
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-02971",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-2s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-02971",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-3s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-02971",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-02971",
+    "label": "synthetic",
+    "source_speaker_id": "ryan",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.8262624740600587,
+      "selected": 0.0022842922617027856
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04928",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.05506075918674469,
+      "selected": 0.9999991613940826
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04928",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07558440417051315,
+      "selected": 0.999965752163918
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04928",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06382004171609879,
+      "selected": 0.9999996199819371
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04928",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.05506075918674469,
+      "selected": 0.9999991613940826
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04928",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.056798212230205536,
+      "selected": 0.9999998376158816
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04859",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.06433353573083878,
+      "selected": 0.978322331041405
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04859",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.076510488986969,
+      "selected": 0.05874809263750958
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04859",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06712354719638824,
+      "selected": 0.3793734568859388
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04859",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-04859",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06854236125946045,
+      "selected": 0.9995821066697912
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04886",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.05985058471560478,
+      "selected": 0.999999285783934
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04886",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07811854779720306,
+      "selected": 0.9999506330857691
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04886",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.07181550562381744,
+      "selected": 0.9999996755602931
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04886",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.05985058471560478,
+      "selected": 0.999999285783934
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04886",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.0629226416349411,
+      "selected": 0.9999999500121067
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04921",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.05357176810503006,
+      "selected": 0.9957147837213354
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04921",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.05890505015850067,
+      "selected": 0.9997338370054352
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04921",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.05527226999402046,
+      "selected": 0.9995946850979275
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04921",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.052288152277469635,
+      "selected": 0.9957147837213354
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04921",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.055294763296842575,
+      "selected": 0.9996822007486805
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04940",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.05877438932657242,
+      "selected": 0.0028300148163617144
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04940",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07535076886415482,
+      "selected": 0.0024420126356994145
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04940",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06169300153851509,
+      "selected": 0.0006524345759227775
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04940",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-04940",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.05902845785021782,
+      "selected": 0.988526809096256
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04895",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.05614401772618294,
+      "selected": 0.9999891051200864
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04895",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07597710192203522,
+      "selected": 0.011971909843035353
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04895",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.062172550708055496,
+      "selected": 0.9479601318912803
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04895",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-04895",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.05731375515460968,
+      "selected": 0.9999999159489963
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04907",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.09713420520226161,
+      "selected": 0.9973127577102793
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04907",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07070991396903992,
+      "selected": 0.998391102748037
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04907",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06274954229593277,
+      "selected": 0.9997038630696886
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04907",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.053915008902549744,
+      "selected": 0.9973127577102793
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04907",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07040737631420295,
+      "selected": 0.9996812864372406
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04885",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.05986271891742945,
+      "selected": 0.910900396051144
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04885",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.08064604550600052,
+      "selected": 0.12374037672798277
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04885",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06697966158390045,
+      "selected": 0.9971820166451977
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04885",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.0586700439453125,
+      "selected": 0.910900396051144
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04885",
+    "label": "real",
+    "source_speaker_id": "taylor",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.0595144615508616,
+      "selected": 0.9999813987710313
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03617",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.08706840127706528,
+      "selected": 0.9999783241000482
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03617",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.11103484034538269,
+      "selected": 0.9999995505553206
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03617",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.10102550685405731,
+      "selected": 0.9999995184054687
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03617",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.08706840127706528,
+      "selected": 0.9999783241000482
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03617",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.10393213480710983,
+      "selected": 0.999978489484134
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03397",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.08867838233709335,
+      "selected": 0.9999996085014661
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03397",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.09572168439626694,
+      "selected": 0.9999997840149215
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03397",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.09559955447912216,
+      "selected": 0.9999986272496129
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03397",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.08867838233709335,
+      "selected": 0.9999996085014661
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03397",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.09829635918140411,
+      "selected": 0.999999361423992
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03057",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.090347059071064,
+      "selected": 0.9999945172662649
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03057",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.16460461914539337,
+      "selected": 0.9999930920191604
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03057",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.08831896632909775,
+      "selected": 0.9999655093392016
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03057",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-03057",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.09366375207901001,
+      "selected": 0.999987353297194
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03069",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.2082358921567599,
+      "selected": 0.9999995303817211
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03069",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.10468918830156326,
+      "selected": 0.9980110993179951
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03069",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.11448265612125397,
+      "selected": 0.9998699898261598
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03069",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.07869251072406769,
+      "selected": 0.9999995303817211
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03069",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.20847866187493005,
+      "selected": 0.9999995080722703
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03622",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.1271272748708725,
+      "selected": 0.9997799589781721
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03622",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.16712665557861328,
+      "selected": 0.9827742173534355
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03622",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.1404317319393158,
+      "selected": 0.9673613291094705
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03622",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-03622",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.1097150519490242,
+      "selected": 0.9999975655692611
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03410",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.06933657079935074,
+      "selected": 0.003155766290121532
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03410",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.09187003970146179,
+      "selected": 0.00035120839260460783
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03410",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.08891060203313828,
+      "selected": 0.000291524327782277
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03410",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06933657079935074,
+      "selected": 0.003155766290121532
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03410",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06755440682172775,
+      "selected": 0.2216911809359577
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03457",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.11104476451873779,
+      "selected": 0.999999999934934
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03457",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.4159703552722931,
+      "selected": 0.9999999718441873
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03457",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.26864275336265564,
+      "selected": 0.9999999472292985
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03457",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-03457",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.08894634246826172,
+      "selected": 0.9999999999483955
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03019",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.09853559732437134,
+      "selected": 0.9999999782025368
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03019",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.10943901538848877,
+      "selected": 0.9993013852440437
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03019",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.10426884889602661,
+      "selected": 0.9999900117246214
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03019",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-03019",
+    "label": "synthetic",
+    "source_speaker_id": "taylor",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.11968516558408737,
+      "selected": 0.9999999951689489
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04988",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07015196606516838,
+      "selected": 0.9950238828513124
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04988",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.06827610731124878,
+      "selected": 0.014881012990257375
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04988",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06179529055953026,
+      "selected": 0.12077667210449287
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04988",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06210215389728546,
+      "selected": 0.9950238828513124
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04988",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06692931863168876,
+      "selected": 0.9988382126633516
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04962",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07447199399272601,
+      "selected": 0.14716278310658584
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04962",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07699967920780182,
+      "selected": 0.9969238551114
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04962",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.07452459633350372,
+      "selected": 0.9802555408126975
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04962",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.07262010127305984,
+      "selected": 0.14716278310658584
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04962",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07056631644566853,
+      "selected": 0.05015382966607378
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-05033",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07740736845880747,
+      "selected": 0.8677436535036993
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-05033",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.08566545695066452,
+      "selected": 0.2633287234449083
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-05033",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.0709262415766716,
+      "selected": 0.9914358095339095
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-05033",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.07305462658405304,
+      "selected": 0.8677436535036993
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-05033",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07249158434569836,
+      "selected": 0.9750502183045264
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-05040",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.06650243047624826,
+      "selected": 0.990190231251209
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-05040",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.08669083565473557,
+      "selected": 0.00043739782733590965
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-05040",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.07633350044488907,
+      "selected": 0.010629863348862624
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-05040",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06529317051172256,
+      "selected": 0.990190231251209
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-05040",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06382198818027973,
+      "selected": 0.9952391802558653
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04982",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.08502131594078881,
+      "selected": 0.7915156783126662
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04982",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.12210982292890549,
+      "selected": 0.06623718072920072
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04982",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.10288231819868088,
+      "selected": 0.7453156068320377
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04982",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.07951440662145615,
+      "selected": 0.7915156783126662
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04982",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.08227240826402392,
+      "selected": 0.9989391900730955
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04985",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.19311887274185816,
+      "selected": 0.9999920331162296
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04985",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07159499824047089,
+      "selected": 0.9999925447461403
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04985",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06510426849126816,
+      "selected": 0.9999993016941642
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04985",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06782044470310211,
+      "selected": 0.9999920331162296
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04985",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.19956018154819807,
+      "selected": 0.9999683752385614
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-05047",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07237977640969413,
+      "selected": 5.7822755845327404e-05
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-05047",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.15347014367580414,
+      "selected": 0.00020389204418438286
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-05047",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.12386240065097809,
+      "selected": 0.00011240535583147158
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-05047",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.07442718744277954,
+      "selected": 5.7822755845327404e-05
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-05047",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06976886306490217,
+      "selected": 7.140068399880231e-05
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04956",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.07540651317685843,
+      "selected": 0.9644029284632657
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04956",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.07823554426431656,
+      "selected": 0.9927604139455293
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04956",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.07093489915132523,
+      "selected": 0.9862373976598564
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04956",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06548167765140533,
+      "selected": 0.9644029284632657
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04956",
+    "label": "real",
+    "source_speaker_id": "trump",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.0737211536616087,
+      "selected": 0.9998207980393108
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03978",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.14355404675006866,
+      "selected": 0.9998043794331019
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03978",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.14956147968769073,
+      "selected": 0.9999966848611789
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03978",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.14490732550621033,
+      "selected": 0.9999671757307723
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03978",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.14355404675006866,
+      "selected": 0.9998043794331019
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03978",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.10780637711286545,
+      "selected": 0.9997865925602946
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04339",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.20913903508335352,
+      "selected": 0.0014502455436018744
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04339",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.11180288344621658,
+      "selected": 0.4061975048489422
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04339",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.08937416225671768,
+      "selected": 0.13167013407164127
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04339",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.06792563945055008,
+      "selected": 0.0014502455436018744
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04339",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.35030451975762844,
+      "selected": 0.016847369583289508
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03729",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.11346435546875,
+      "selected": 0.9999947824623729
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03729",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.08308052271604538,
+      "selected": 0.8241514358213098
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03729",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.07810261100530624,
+      "selected": 0.24383033697009196
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03729",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.07403895258903503,
+      "selected": 0.9999947824623729
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03729",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.09956750397880872,
+      "selected": 0.9999708754384631
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03911",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.3068717420101166,
+      "selected": 0.9970164257616249
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03911",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.13364848494529724,
+      "selected": 0.9999973308875335
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03911",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.2357223629951477,
+      "selected": 0.9999995691394492
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03911",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-03911",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.38466084003448486,
+      "selected": 0.9999927042790501
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04153",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.06454665213823318,
+      "selected": 0.9835391057142012
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04153",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.06936417520046234,
+      "selected": 0.4362685585559829
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04153",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.06443796306848526,
+      "selected": 0.6286566149844163
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04153",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-04153",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.06311797350645065,
+      "selected": 0.986130087737001
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03740",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.1115708862032209,
+      "selected": 0.4746336843056704
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03740",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.11238367855548859,
+      "selected": 0.04079460642722313
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03740",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.13011518120765686,
+      "selected": 0.5687197072960748
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03740",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.11260382831096649,
+      "selected": 0.4746336843056704
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03740",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.12145625267710004,
+      "selected": 0.8750379336287524
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04171",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.0775507390499115,
+      "selected": 0.9417070303695806
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04171",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.1014891266822815,
+      "selected": 0.29697473868297586
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04171",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.09475787729024887,
+      "selected": 0.9579271658325315
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-04171",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-5s",
+    "scores": {},
+    "errors": {},
+    "skipped": "input_too_short"
+  },
+  {
+    "id": "deepvoice-04171",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.07013939321041107,
+      "selected": 0.9731808933319188
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03831",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "original",
+    "scores": {
+      "baseline": 0.14299501478672028,
+      "selected": 0.9788877460212627
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03831",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-2s",
+    "scores": {
+      "baseline": 0.7503660917282104,
+      "selected": 0.1306392758369263
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03831",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-3s",
+    "scores": {
+      "baseline": 0.7488859295845032,
+      "selected": 0.17200636664709498
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03831",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "first-5s",
+    "scores": {
+      "baseline": 0.14299501478672028,
+      "selected": 0.9788877460212627
+    },
+    "errors": {}
+  },
+  {
+    "id": "deepvoice-03831",
+    "label": "synthetic",
+    "source_speaker_id": "trump",
+    "condition": "8khz-roundtrip",
+    "scores": {
+      "baseline": 0.13969096541404724,
+      "selected": 0.9945362318986395
+    },
+    "errors": {}
+  }
+]

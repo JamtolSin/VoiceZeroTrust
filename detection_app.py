@@ -11,20 +11,28 @@ os.environ["GRADIO_ANALYTICS_ENABLED"] = "False"
 
 import gradio as gr
 from src.detection.service import DetectionService
+from src.detection.profiles import build_profile
 
 
 def build_app(service=None):
-    service = service or DetectionService(workdir=RUNTIME / "requests")
+    injected_service = service
+    services = {"baseline": service or DetectionService(acoustic=build_profile("baseline"), workdir=RUNTIME / "requests")}
 
-    def analyze(path, transcript, asr, acoustic):
+    def analyze(path, transcript, asr, acoustic, profile):
         try:
-            report = service.analyze(path, transcript=transcript or None,
+            if profile not in {"baseline", "candidate"}:
+                raise ValueError("지원하지 않는 탐지 프로필입니다.")
+            if profile not in services:
+                services[profile] = injected_service or DetectionService(acoustic=build_profile(profile), workdir=RUNTIME / "requests")
+            report = services[profile].analyze(path, transcript=transcript or None,
                                      enable_asr=asr, enable_acoustic=acoustic)
             acoustic_result = report["acoustic"]
             score = acoustic_result.get("fake_score")
             acoustic_text = acoustic_result["status"]
             if score is not None:
                 acoustic_text += f" · 합성 클래스 점수 {score:.3f} (사기 확률 아님)"
+            if acoustic_result.get("decision"):
+                acoustic_text += " · " + acoustic_result["decision"]
             acoustic_text += "\n" + acoustic_result.get("message", "이 채널은 실행하지 않았습니다.")
             content = report["content"]
             content_text = content.get("level", content["status"]) + "\n" + report["recommendation"]
@@ -46,6 +54,9 @@ def build_app(service=None):
                     placeholder="입력하면 자동 전사 대신 이 텍스트를 분석합니다. 음성과 일치하는지 확인해 주세요.")
                 asr = gr.Checkbox(value=True, label="대사가 없으면 한국어 자동 전사")
                 acoustic = gr.Checkbox(value=True, label="합성 음향 흔적 분석")
+                profile = gr.Dropdown(choices=[("기준 모델 · XLS-R", "baseline"), ("연구 후보 · AASIST + 학습 분류기", "candidate")],
+                                      value="baseline", label="탐지 프로필 (후보는 실험용)")
+                gr.Markdown("기본 모델은 유지합니다. 연구 후보는 영어 데이터로 분류기만 학습했으며 한국어·실전 통화 성능은 보장하지 않습니다.")
                 gr.Markdown("처음에는 공개 모델을 다운로드하므로 시간이 걸립니다. 음성은 외부 분석 API로 보내지 않습니다.")
                 run = gr.Button("분석하기", variant="primary")
                 status = gr.Textbox(label="진행 상태", interactive=False)
@@ -62,7 +73,7 @@ def build_app(service=None):
                     "- 대화 분석은 학습 모델이 아닌 설명 가능한 규칙 기반 MVP입니다. 자동 전사 오류와 인용·교육 맥락 때문에 오탐/미탐이 가능합니다.\n"
                     "- 미검출·분석 실패는 안전 판정이 아닙니다. 송금·앱 설치·인증정보 요구는 알고 있는 별도 채널로 확인하세요.\n"
                     "- 입력 캐시는 최대 약 16분 후 정리됩니다. 강제 종료 시 남을 수 있습니다.")
-        run.click(analyze, [audio, transcript, asr, acoustic], [report, status, acoustic_result, content_result, evidence],
+        run.click(analyze, [audio, transcript, asr, acoustic, profile], [report, status, acoustic_result, content_result, evidence],
                   concurrency_limit=1, api_visibility="private")
     return demo.queue(default_concurrency_limit=1, max_size=4)
 

@@ -7,6 +7,7 @@ import numpy as np
 import soundfile as sf
 
 MODEL_ID = "Gustking/wav2vec2-large-xlsr-deepfake-audio-classification"
+MODEL_REVISION = "f7050b586236dc910d1157f430def2d0647b02b4"
 RATE = 16000
 
 
@@ -48,7 +49,7 @@ class AcousticDetector:
             if self.predictor is None:
                 from transformers import pipeline
                 self.predictor = pipeline("audio-classification", model=MODEL_ID,
-                                          device=-1, trust_remote_code=False)
+                                          revision=MODEL_REVISION, device=-1, trust_remote_code=False)
             predictions = self.predictor({"array": chunk, "sampling_rate": rate}, top_k=None)
             labels = {item["label"].lower(): float(item["score"]) for item in predictions}
             if set(labels) != {"real", "fake"} or not all(np.isfinite(v) and 0 <= v <= 1 for v in labels.values()):

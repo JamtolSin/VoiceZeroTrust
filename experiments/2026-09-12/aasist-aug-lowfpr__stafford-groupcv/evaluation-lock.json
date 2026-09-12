@@ -1,0 +1,38 @@
+{
+  "configs": [
+    {
+      "name": "clean-C1-fpr5",
+      "C": 1.0,
+      "augment": false,
+      "cap": 0.05
+    },
+    {
+      "name": "clean-C001-fpr5",
+      "C": 0.01,
+      "augment": false,
+      "cap": 0.05
+    },
+    {
+      "name": "clean-C001-fpr1",
+      "C": 0.01,
+      "augment": false,
+      "cap": 0.01
+    },
+    {
+      "name": "aug-C001-fpr1",
+      "C": 0.01,
+      "augment": true,
+      "cap": 0.01
+    }
+  ],
+  "features_sha256": "0c12bb2248784a0819de30cecc013c93a1befe2097d55a5697cd42b88a7f043c",
+  "script_sha256": "4dcb2db01c40bdd988c93a02d4db6246e75b75388f80a7b9345009700e348b34",
+  "protocol": "5 GroupKFold outer tests; first of 3 inner group folds for calibration; no test threshold tuning",
+  "conditions": [
+    "original",
+    "bandlimit-8k",
+    "noise-20db"
+  ],
+  "promotion_passed": false,
+  "limitations": "Previously inspected development corpus; correlated source groups, not verified speakers. No independent final test or Korean validation."
+}
