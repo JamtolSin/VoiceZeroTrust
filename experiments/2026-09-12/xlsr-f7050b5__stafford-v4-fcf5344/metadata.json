@@ -1,0 +1,20 @@
+{
+  "run_id": "2026-09-12/xlsr-f7050b5__stafford-v4-fcf5344",
+  "experiment_date": "2026-09-12",
+  "timezone": "Asia/Seoul",
+  "timestamp_precision": "date; exact original start time was not recorded",
+  "detector_release": "v0.1.0-detection.1",
+  "model_id": "Gustking/wav2vec2-large-xlsr-deepfake-audio-classification",
+  "model_revision": "f7050b586236dc910d1157f430def2d0647b02b4",
+  "dataset_id": "garystafford/deepfake-audio-detection",
+  "dataset_revision": "fcf5344bb7f82b54b6b932291326d29750ef1e82",
+  "dataset_license": "CC-BY-4.0",
+  "dataset_author": "Gary Stafford",
+  "threshold": 0.5,
+  "inference_loop_seconds": 108.7,
+  "hardware": "NVIDIA RTX 3080",
+  "audio_seconds": 7828.4710000000005,
+  "source_predictions_sha256": "7a54049b1e3a826b194221883440b73c813d687f87673d51449e790ba0a029d3",
+  "privacy": "Audio, transcripts, local absolute paths and cache files excluded",
+  "version_meaning": "Version of detection pipeline snapshot, not a newly trained model"
+}
