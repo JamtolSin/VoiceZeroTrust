@@ -23,8 +23,9 @@ class AudioSealBackend:
                 from audioseal import AudioSeal
             except ImportError as exc:
                 raise ValueError("AudioSeal이 필요합니다. pip install 'audioseal>=0.2,<0.3'") from exc
-            self.generator = AudioSeal.load_generator("audioseal_wm_16bits").cpu().eval()
-            self.detector = AudioSeal.load_detector("audioseal_detector_16bits").cpu().eval()
+            generator = AudioSeal.load_generator("audioseal_wm_16bits").cpu().eval()
+            detector = AudioSeal.load_detector("audioseal_detector_16bits").cpu().eval()
+            self.generator, self.detector = generator, detector
 
     def metadata(self):
         self._load()
