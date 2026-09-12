@@ -1,0 +1,591 @@
+{
+  "config": {
+    "dataset": "garystafford/deepfake-audio-detection",
+    "revision": "fcf5344bb7f82b54b6b932291326d29750ef1e82",
+    "license": "CC-BY-4.0",
+    "author": "Gary Stafford",
+    "threshold": 0.5,
+    "model": "Gustking/wav2vec2-large-xlsr-deepfake-audio-classification",
+    "device": "cuda:0",
+    "versions": {
+      "torch": "2.8.0+cu128",
+      "transformers": "4.57.3",
+      "pyarrow": "25.0.1"
+    },
+    "scope": "Complete published train split used for external evaluation; no training or threshold fitting",
+    "limitations": [
+      "English only",
+      "Speaker identities unavailable; clips are not independent speakers",
+      "Detector training overlap cannot be ruled out",
+      "Not phishing-intent detection",
+      "Publisher license relied upon; individual speaker consent not independently verified"
+    ]
+  },
+  "model_revision": "f7050b586236dc910d1157f430def2d0647b02b4",
+  "total": 1866,
+  "duplicate_files": 216,
+  "metrics": {
+    "threshold": 0.5,
+    "positive_label": "synthetic",
+    "total": 1866,
+    "classified": 1866,
+    "coverage": 1.0,
+    "class_totals": {
+      "real": 933,
+      "synthetic": 933
+    },
+    "confusion": {
+      "tp": 703,
+      "fn": 230,
+      "fp": 203,
+      "tn": 730
+    },
+    "abstained": {
+      "real": 0,
+      "synthetic": 0
+    },
+    "errors": 0,
+    "precision": 0.7759381898454746,
+    "recall": 0.7534833869239014,
+    "specificity": 0.782422293676313,
+    "fpr": 0.21757770632368703,
+    "fnr": 0.2465166130760986,
+    "accuracy": 0.7679528403001071,
+    "balanced_accuracy": 0.7679528403001072,
+    "synthetic_detection_rate_all": 0.7534833869239014,
+    "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+  },
+  "unique_metrics": {
+    "threshold": 0.5,
+    "positive_label": "synthetic",
+    "total": 1650,
+    "classified": 1650,
+    "coverage": 1.0,
+    "class_totals": {
+      "real": 930,
+      "synthetic": 720
+    },
+    "confusion": {
+      "tp": 510,
+      "fn": 210,
+      "fp": 203,
+      "tn": 727
+    },
+    "abstained": {
+      "real": 0,
+      "synthetic": 0
+    },
+    "errors": 0,
+    "precision": 0.7152875175315568,
+    "recall": 0.7083333333333334,
+    "specificity": 0.7817204301075269,
+    "fpr": 0.21827956989247313,
+    "fnr": 0.2916666666666667,
+    "accuracy": 0.7496969696969698,
+    "balanced_accuracy": 0.7450268817204302,
+    "synthetic_detection_rate_all": 0.7083333333333334,
+    "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+  },
+  "by_label": {
+    "real": {
+      "threshold": 0.5,
+      "positive_label": "synthetic",
+      "total": 933,
+      "classified": 933,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 933,
+        "synthetic": 0
+      },
+      "confusion": {
+        "tp": 0,
+        "fn": 0,
+        "fp": 203,
+        "tn": 730
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 0.0,
+      "recall": null,
+      "specificity": 0.782422293676313,
+      "fpr": 0.21757770632368703,
+      "fnr": null,
+      "accuracy": 0.782422293676313,
+      "balanced_accuracy": null,
+      "synthetic_detection_rate_all": null,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    },
+    "synthetic": {
+      "threshold": 0.5,
+      "positive_label": "synthetic",
+      "total": 933,
+      "classified": 933,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 0,
+        "synthetic": 933
+      },
+      "confusion": {
+        "tp": 703,
+        "fn": 230,
+        "fp": 0,
+        "tn": 0
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 1.0,
+      "recall": 0.7534833869239014,
+      "specificity": null,
+      "fpr": null,
+      "fnr": 0.2465166130760986,
+      "accuracy": 0.7534833869239014,
+      "balanced_accuracy": null,
+      "synthetic_detection_rate_all": 0.7534833869239014,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    }
+  },
+  "unique_by_source": {
+    "el": {
+      "threshold": 0.5,
+      "positive_label": "synthetic",
+      "total": 171,
+      "classified": 171,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 0,
+        "synthetic": 171
+      },
+      "confusion": {
+        "tp": 86,
+        "fn": 85,
+        "fp": 0,
+        "tn": 0
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 1.0,
+      "recall": 0.5029239766081871,
+      "specificity": null,
+      "fpr": null,
+      "fnr": 0.49707602339181284,
+      "accuracy": 0.5029239766081871,
+      "balanced_accuracy": null,
+      "synthetic_detection_rate_all": 0.5029239766081871,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    },
+    "hg": {
+      "threshold": 0.5,
+      "positive_label": "synthetic",
+      "total": 68,
+      "classified": 68,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 0,
+        "synthetic": 68
+      },
+      "confusion": {
+        "tp": 35,
+        "fn": 33,
+        "fp": 0,
+        "tn": 0
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 1.0,
+      "recall": 0.5147058823529411,
+      "specificity": null,
+      "fpr": null,
+      "fnr": 0.4852941176470588,
+      "accuracy": 0.5147058823529411,
+      "balanced_accuracy": null,
+      "synthetic_detection_rate_all": 0.5147058823529411,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    },
+    "hu": {
+      "threshold": 0.5,
+      "positive_label": "synthetic",
+      "total": 116,
+      "classified": 116,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 0,
+        "synthetic": 116
+      },
+      "confusion": {
+        "tp": 89,
+        "fn": 27,
+        "fp": 0,
+        "tn": 0
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 1.0,
+      "recall": 0.7672413793103449,
+      "specificity": null,
+      "fpr": null,
+      "fnr": 0.23275862068965517,
+      "accuracy": 0.7672413793103449,
+      "balanced_accuracy": null,
+      "synthetic_detection_rate_all": 0.7672413793103449,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    },
+    "lv": {
+      "threshold": 0.5,
+      "positive_label": "synthetic",
+      "total": 31,
+      "classified": 31,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 0,
+        "synthetic": 31
+      },
+      "confusion": {
+        "tp": 29,
+        "fn": 2,
+        "fp": 0,
+        "tn": 0
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 1.0,
+      "recall": 0.9354838709677419,
+      "specificity": null,
+      "fpr": null,
+      "fnr": 0.06451612903225806,
+      "accuracy": 0.9354838709677419,
+      "balanced_accuracy": null,
+      "synthetic_detection_rate_all": 0.9354838709677419,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    },
+    "po": {
+      "threshold": 0.5,
+      "positive_label": "synthetic",
+      "total": 123,
+      "classified": 123,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 0,
+        "synthetic": 123
+      },
+      "confusion": {
+        "tp": 80,
+        "fn": 43,
+        "fp": 0,
+        "tn": 0
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 1.0,
+      "recall": 0.6504065040650406,
+      "specificity": null,
+      "fpr": null,
+      "fnr": 0.34959349593495936,
+      "accuracy": 0.6504065040650406,
+      "balanced_accuracy": null,
+      "synthetic_detection_rate_all": 0.6504065040650406,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    },
+    "sp": {
+      "threshold": 0.5,
+      "positive_label": "synthetic",
+      "total": 211,
+      "classified": 211,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 0,
+        "synthetic": 211
+      },
+      "confusion": {
+        "tp": 191,
+        "fn": 20,
+        "fp": 0,
+        "tn": 0
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 1.0,
+      "recall": 0.9052132701421801,
+      "specificity": null,
+      "fpr": null,
+      "fnr": 0.0947867298578199,
+      "accuracy": 0.9052132701421801,
+      "balanced_accuracy": null,
+      "synthetic_detection_rate_all": 0.9052132701421801,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    },
+    "yt": {
+      "threshold": 0.5,
+      "positive_label": "synthetic",
+      "total": 930,
+      "classified": 930,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 930,
+        "synthetic": 0
+      },
+      "confusion": {
+        "tp": 0,
+        "fn": 0,
+        "fp": 203,
+        "tn": 727
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 0.0,
+      "recall": null,
+      "specificity": 0.7817204301075269,
+      "fpr": 0.21827956989247313,
+      "fnr": null,
+      "accuracy": 0.7817204301075269,
+      "balanced_accuracy": null,
+      "synthetic_detection_rate_all": null,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    }
+  },
+  "by_source": {
+    "el": {
+      "threshold": 0.5,
+      "positive_label": "synthetic",
+      "total": 173,
+      "classified": 173,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 0,
+        "synthetic": 173
+      },
+      "confusion": {
+        "tp": 88,
+        "fn": 85,
+        "fp": 0,
+        "tn": 0
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 1.0,
+      "recall": 0.5086705202312138,
+      "specificity": null,
+      "fpr": null,
+      "fnr": 0.4913294797687861,
+      "accuracy": 0.5086705202312138,
+      "balanced_accuracy": null,
+      "synthetic_detection_rate_all": 0.5086705202312138,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    },
+    "hg": {
+      "threshold": 0.5,
+      "positive_label": "synthetic",
+      "total": 68,
+      "classified": 68,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 0,
+        "synthetic": 68
+      },
+      "confusion": {
+        "tp": 35,
+        "fn": 33,
+        "fp": 0,
+        "tn": 0
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 1.0,
+      "recall": 0.5147058823529411,
+      "specificity": null,
+      "fpr": null,
+      "fnr": 0.4852941176470588,
+      "accuracy": 0.5147058823529411,
+      "balanced_accuracy": null,
+      "synthetic_detection_rate_all": 0.5147058823529411,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    },
+    "hu": {
+      "threshold": 0.5,
+      "positive_label": "synthetic",
+      "total": 116,
+      "classified": 116,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 0,
+        "synthetic": 116
+      },
+      "confusion": {
+        "tp": 89,
+        "fn": 27,
+        "fp": 0,
+        "tn": 0
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 1.0,
+      "recall": 0.7672413793103449,
+      "specificity": null,
+      "fpr": null,
+      "fnr": 0.23275862068965517,
+      "accuracy": 0.7672413793103449,
+      "balanced_accuracy": null,
+      "synthetic_detection_rate_all": 0.7672413793103449,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    },
+    "lv": {
+      "threshold": 0.5,
+      "positive_label": "synthetic",
+      "total": 156,
+      "classified": 156,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 0,
+        "synthetic": 156
+      },
+      "confusion": {
+        "tp": 139,
+        "fn": 17,
+        "fp": 0,
+        "tn": 0
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 1.0,
+      "recall": 0.8910256410256411,
+      "specificity": null,
+      "fpr": null,
+      "fnr": 0.10897435897435898,
+      "accuracy": 0.8910256410256411,
+      "balanced_accuracy": null,
+      "synthetic_detection_rate_all": 0.8910256410256411,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    },
+    "po": {
+      "threshold": 0.5,
+      "positive_label": "synthetic",
+      "total": 209,
+      "classified": 209,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 0,
+        "synthetic": 209
+      },
+      "confusion": {
+        "tp": 161,
+        "fn": 48,
+        "fp": 0,
+        "tn": 0
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 1.0,
+      "recall": 0.7703349282296651,
+      "specificity": null,
+      "fpr": null,
+      "fnr": 0.22966507177033493,
+      "accuracy": 0.7703349282296651,
+      "balanced_accuracy": null,
+      "synthetic_detection_rate_all": 0.7703349282296651,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    },
+    "sp": {
+      "threshold": 0.5,
+      "positive_label": "synthetic",
+      "total": 211,
+      "classified": 211,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 0,
+        "synthetic": 211
+      },
+      "confusion": {
+        "tp": 191,
+        "fn": 20,
+        "fp": 0,
+        "tn": 0
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 1.0,
+      "recall": 0.9052132701421801,
+      "specificity": null,
+      "fpr": null,
+      "fnr": 0.0947867298578199,
+      "accuracy": 0.9052132701421801,
+      "balanced_accuracy": null,
+      "synthetic_detection_rate_all": 0.9052132701421801,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    },
+    "yt": {
+      "threshold": 0.5,
+      "positive_label": "synthetic",
+      "total": 933,
+      "classified": 933,
+      "coverage": 1.0,
+      "class_totals": {
+        "real": 933,
+        "synthetic": 0
+      },
+      "confusion": {
+        "tp": 0,
+        "fn": 0,
+        "fp": 203,
+        "tn": 730
+      },
+      "abstained": {
+        "real": 0,
+        "synthetic": 0
+      },
+      "errors": 0,
+      "precision": 0.0,
+      "recall": null,
+      "specificity": 0.782422293676313,
+      "fpr": 0.21757770632368703,
+      "fnr": null,
+      "accuracy": 0.782422293676313,
+      "balanced_accuracy": null,
+      "synthetic_detection_rate_all": null,
+      "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+    }
+  }
+}

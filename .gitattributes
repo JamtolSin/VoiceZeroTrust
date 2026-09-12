@@ -1,0 +1,2 @@
+# Preserve archived experiment bytes so SHA-256 checksums survive every checkout.
+experiments/** -text
