@@ -1,0 +1,476 @@
+{
+  "spec": {
+    "selection_sha256": "effe063e9ae559b85764155d006522cc404a793b539463e107c7b836d11c30f8",
+    "subset_ids": [
+      "deepvoice-04464",
+      "deepvoice-04478",
+      "deepvoice-04508",
+      "deepvoice-04446",
+      "deepvoice-04456",
+      "deepvoice-04429",
+      "deepvoice-04460",
+      "deepvoice-04488",
+      "deepvoice-00370",
+      "deepvoice-00539",
+      "deepvoice-00736",
+      "deepvoice-00704",
+      "deepvoice-00606",
+      "deepvoice-00810",
+      "deepvoice-00829",
+      "deepvoice-00242",
+      "deepvoice-04555",
+      "deepvoice-04559",
+      "deepvoice-04590",
+      "deepvoice-04586",
+      "deepvoice-04576",
+      "deepvoice-04614",
+      "deepvoice-04526",
+      "deepvoice-04567",
+      "deepvoice-01306",
+      "deepvoice-01574",
+      "deepvoice-00940",
+      "deepvoice-01273",
+      "deepvoice-01559",
+      "deepvoice-00966",
+      "deepvoice-01350",
+      "deepvoice-01493",
+      "deepvoice-04623",
+      "deepvoice-04621",
+      "deepvoice-04633",
+      "deepvoice-04629",
+      "deepvoice-04627",
+      "deepvoice-04628",
+      "deepvoice-04634",
+      "deepvoice-04632",
+      "deepvoice-01616",
+      "deepvoice-01613",
+      "deepvoice-01628",
+      "deepvoice-01643",
+      "deepvoice-01583",
+      "deepvoice-01596",
+      "deepvoice-01667",
+      "deepvoice-01639",
+      "deepvoice-04690",
+      "deepvoice-04649",
+      "deepvoice-04691",
+      "deepvoice-04702",
+      "deepvoice-04646",
+      "deepvoice-04723",
+      "deepvoice-04675",
+      "deepvoice-04685",
+      "deepvoice-01991",
+      "deepvoice-01766",
+      "deepvoice-01762",
+      "deepvoice-01896",
+      "deepvoice-02360",
+      "deepvoice-01697",
+      "deepvoice-02195",
+      "deepvoice-01760",
+      "deepvoice-04785",
+      "deepvoice-04760",
+      "deepvoice-04763",
+      "deepvoice-04751",
+      "deepvoice-04776",
+      "deepvoice-04741",
+      "deepvoice-04766",
+      "deepvoice-04834",
+      "deepvoice-00154",
+      "deepvoice-02441",
+      "deepvoice-00121",
+      "deepvoice-02550",
+      "deepvoice-02815",
+      "deepvoice-02622",
+      "deepvoice-02798",
+      "deepvoice-02678",
+      "deepvoice-04848",
+      "deepvoice-04851",
+      "deepvoice-04839",
+      "deepvoice-04847",
+      "deepvoice-04850",
+      "deepvoice-04845",
+      "deepvoice-04840",
+      "deepvoice-04841",
+      "deepvoice-02951",
+      "deepvoice-02911",
+      "deepvoice-02967",
+      "deepvoice-02977",
+      "deepvoice-02909",
+      "deepvoice-02980",
+      "deepvoice-02906",
+      "deepvoice-02971",
+      "deepvoice-04928",
+      "deepvoice-04859",
+      "deepvoice-04886",
+      "deepvoice-04921",
+      "deepvoice-04940",
+      "deepvoice-04895",
+      "deepvoice-04907",
+      "deepvoice-04885",
+      "deepvoice-03617",
+      "deepvoice-03397",
+      "deepvoice-03057",
+      "deepvoice-03069",
+      "deepvoice-03622",
+      "deepvoice-03410",
+      "deepvoice-03457",
+      "deepvoice-03019",
+      "deepvoice-04988",
+      "deepvoice-04962",
+      "deepvoice-05033",
+      "deepvoice-05040",
+      "deepvoice-04982",
+      "deepvoice-04985",
+      "deepvoice-05047",
+      "deepvoice-04956",
+      "deepvoice-03978",
+      "deepvoice-04339",
+      "deepvoice-03729",
+      "deepvoice-03911",
+      "deepvoice-04153",
+      "deepvoice-03740",
+      "deepvoice-04171",
+      "deepvoice-03831"
+    ],
+    "selection": "first 8 SHA-sorted clips per source-speaker x label; no scores used",
+    "conditions": [
+      "original",
+      "first-2s",
+      "first-3s",
+      "first-5s",
+      "8khz-roundtrip"
+    ],
+    "short_input": "skip condition if actual clip shorter than requested; never pad to fake eligibility"
+  },
+  "conditions": {
+    "original": {
+      "eligible": 128,
+      "skipped": 0,
+      "baseline": {
+        "threshold": 0.5,
+        "positive_label": "synthetic",
+        "total": 128,
+        "classified": 128,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 64,
+          "synthetic": 64
+        },
+        "confusion": {
+          "tp": 4,
+          "fn": 60,
+          "fp": 0,
+          "tn": 64
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 0.0625,
+        "specificity": 1.0,
+        "fpr": 0.0,
+        "fnr": 0.9375,
+        "accuracy": 0.53125,
+        "balanced_accuracy": 0.53125,
+        "synthetic_detection_rate_all": 0.0625,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "selected": {
+        "threshold": 0.7676075931865732,
+        "positive_label": "synthetic",
+        "total": 128,
+        "classified": 128,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 64,
+          "synthetic": 64
+        },
+        "confusion": {
+          "tp": 40,
+          "fn": 24,
+          "fp": 36,
+          "tn": 28
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 0.5263157894736842,
+        "recall": 0.625,
+        "specificity": 0.4375,
+        "fpr": 0.5625,
+        "fnr": 0.375,
+        "accuracy": 0.53125,
+        "balanced_accuracy": 0.53125,
+        "synthetic_detection_rate_all": 0.625,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      }
+    },
+    "first-2s": {
+      "eligible": 126,
+      "skipped": 2,
+      "baseline": {
+        "threshold": 0.5,
+        "positive_label": "synthetic",
+        "total": 126,
+        "classified": 125,
+        "coverage": 0.9920634920634921,
+        "class_totals": {
+          "real": 64,
+          "synthetic": 62
+        },
+        "confusion": {
+          "tp": 9,
+          "fn": 53,
+          "fp": 0,
+          "tn": 63
+        },
+        "abstained": {
+          "real": 1,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 0.14516129032258066,
+        "specificity": 1.0,
+        "fpr": 0.0,
+        "fnr": 0.8548387096774194,
+        "accuracy": 0.576,
+        "balanced_accuracy": 0.5725806451612904,
+        "synthetic_detection_rate_all": 0.14516129032258066,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "selected": {
+        "threshold": 0.7676075931865732,
+        "positive_label": "synthetic",
+        "total": 126,
+        "classified": 125,
+        "coverage": 0.9920634920634921,
+        "class_totals": {
+          "real": 64,
+          "synthetic": 62
+        },
+        "confusion": {
+          "tp": 33,
+          "fn": 29,
+          "fp": 26,
+          "tn": 37
+        },
+        "abstained": {
+          "real": 1,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 0.559322033898305,
+        "recall": 0.532258064516129,
+        "specificity": 0.5873015873015873,
+        "fpr": 0.4126984126984127,
+        "fnr": 0.46774193548387094,
+        "accuracy": 0.56,
+        "balanced_accuracy": 0.5597798259088582,
+        "synthetic_detection_rate_all": 0.532258064516129,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      }
+    },
+    "first-3s": {
+      "eligible": 125,
+      "skipped": 3,
+      "baseline": {
+        "threshold": 0.5,
+        "positive_label": "synthetic",
+        "total": 125,
+        "classified": 125,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 63,
+          "synthetic": 62
+        },
+        "confusion": {
+          "tp": 7,
+          "fn": 55,
+          "fp": 1,
+          "tn": 62
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 0.875,
+        "recall": 0.11290322580645161,
+        "specificity": 0.9841269841269841,
+        "fpr": 0.015873015873015872,
+        "fnr": 0.8870967741935484,
+        "accuracy": 0.552,
+        "balanced_accuracy": 0.5485151049667178,
+        "synthetic_detection_rate_all": 0.11290322580645161,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "selected": {
+        "threshold": 0.7676075931865732,
+        "positive_label": "synthetic",
+        "total": 125,
+        "classified": 125,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 63,
+          "synthetic": 62
+        },
+        "confusion": {
+          "tp": 30,
+          "fn": 32,
+          "fp": 30,
+          "tn": 33
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 0.5,
+        "recall": 0.4838709677419355,
+        "specificity": 0.5238095238095238,
+        "fpr": 0.47619047619047616,
+        "fnr": 0.5161290322580645,
+        "accuracy": 0.504,
+        "balanced_accuracy": 0.5038402457757296,
+        "synthetic_detection_rate_all": 0.4838709677419355,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      }
+    },
+    "first-5s": {
+      "eligible": 96,
+      "skipped": 32,
+      "baseline": {
+        "threshold": 0.5,
+        "positive_label": "synthetic",
+        "total": 96,
+        "classified": 96,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 53,
+          "synthetic": 43
+        },
+        "confusion": {
+          "tp": 2,
+          "fn": 41,
+          "fp": 0,
+          "tn": 53
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 0.046511627906976744,
+        "specificity": 1.0,
+        "fpr": 0.0,
+        "fnr": 0.9534883720930233,
+        "accuracy": 0.5729166666666666,
+        "balanced_accuracy": 0.5232558139534884,
+        "synthetic_detection_rate_all": 0.046511627906976744,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "selected": {
+        "threshold": 0.7676075931865732,
+        "positive_label": "synthetic",
+        "total": 96,
+        "classified": 96,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 53,
+          "synthetic": 43
+        },
+        "confusion": {
+          "tp": 25,
+          "fn": 18,
+          "fp": 32,
+          "tn": 21
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 0.43859649122807015,
+        "recall": 0.5813953488372093,
+        "specificity": 0.39622641509433965,
+        "fpr": 0.6037735849056604,
+        "fnr": 0.4186046511627907,
+        "accuracy": 0.4791666666666667,
+        "balanced_accuracy": 0.4888108819657745,
+        "synthetic_detection_rate_all": 0.5813953488372093,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      }
+    },
+    "8khz-roundtrip": {
+      "eligible": 128,
+      "skipped": 0,
+      "baseline": {
+        "threshold": 0.5,
+        "positive_label": "synthetic",
+        "total": 128,
+        "classified": 128,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 64,
+          "synthetic": 64
+        },
+        "confusion": {
+          "tp": 5,
+          "fn": 59,
+          "fp": 0,
+          "tn": 64
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 1.0,
+        "recall": 0.078125,
+        "specificity": 1.0,
+        "fpr": 0.0,
+        "fnr": 0.921875,
+        "accuracy": 0.5390625,
+        "balanced_accuracy": 0.5390625,
+        "synthetic_detection_rate_all": 0.078125,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "selected": {
+        "threshold": 0.7676075931865732,
+        "positive_label": "synthetic",
+        "total": 128,
+        "classified": 128,
+        "coverage": 1.0,
+        "class_totals": {
+          "real": 64,
+          "synthetic": 64
+        },
+        "confusion": {
+          "tp": 44,
+          "fn": 20,
+          "fp": 39,
+          "tn": 25
+        },
+        "abstained": {
+          "real": 0,
+          "synthetic": 0
+        },
+        "errors": 0,
+        "precision": 0.5301204819277109,
+        "recall": 0.6875,
+        "specificity": 0.390625,
+        "fpr": 0.609375,
+        "fnr": 0.3125,
+        "accuracy": 0.5390625,
+        "balanced_accuracy": 0.5390625,
+        "synthetic_detection_rate_all": 0.6875,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      }
+    }
+  }
+}

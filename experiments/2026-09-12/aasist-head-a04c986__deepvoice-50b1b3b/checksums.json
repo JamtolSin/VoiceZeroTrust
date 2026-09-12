@@ -1,0 +1,15 @@
+{
+  "AASIST-LICENSE.txt": "806827107af11f5d992420d2ddb54555751eef811fbba9d2be34d72dcb7ed3ee",
+  "DATASET-LICENSE.txt": "64818622266654e783c756f21322c24c8edb1e4dc46462f9ded77f143c4dd7b1",
+  "development-split.json": "eeb4f5d4fcdce22219201eeab3e81b4976f9c49894df6035b00ae208e8393e1e",
+  "group-bootstrap.json": "2cab0d7cedb05393dfcf653d59e32a2211228853614bbbb7a67b7549748a1e1c",
+  "holdout-lock.json": "c2cef22dee007e0c0e5dfe7d606753b09f50056ccb43d24d94342ad64f82c10d",
+  "holdout-predictions.jsonl": "b5c2b9c0ab92931d9d20ac38877e2686be6cb5d17f5d378faa6d46724cbd67a5",
+  "holdout-report.json": "1b09172e0d9b926680221c8c82de21774bfccff159c56fd4538ca803d3393c03",
+  "metadata.json": "f16143bd3915541347c193762d7364b04bceadb1befb86bf1ac2fe54816e013b",
+  "README.md": "ad4b065173f2dcce0cddf915e60b3a516fbef611b53bd3fcc7969896b3543888",
+  "robustness-predictions.json": "69741c9fa00fe25121df357812a935233cfc6da69489be8668121c7887e35e1c",
+  "robustness-report.json": "1df8496c03664d07f65d89db7f3d265a029be92dc38d1a4eb11a293c61d7ada7",
+  "robustness-spec.json": "45605105cd81fd84ffc3ce43530d9e5f2244be9978f5b0c9386355b2b32a0ad8",
+  "selection.json": "effe063e9ae559b85764155d006522cc404a793b539463e107c7b836d11c30f8"
+}

@@ -1,0 +1,23 @@
+{
+  "groups": 8,
+  "grouping": "source speaker inferred from filename",
+  "repetitions": 2000,
+  "seed": 20260912,
+  "warning": "Only eight correlated source speakers; exploratory intervals, not population guarantees",
+  "baseline_recall_95": [
+    0.029639077496138106,
+    0.06946745536799782
+  ],
+  "selected_recall_95": [
+    0.506014742510753,
+    0.7863350708040722
+  ],
+  "baseline_fpr_95": [
+    0.0,
+    0.004901960784313725
+  ],
+  "selected_fpr_95": [
+    0.24268542686870553,
+    0.7573635620915032
+  ]
+}

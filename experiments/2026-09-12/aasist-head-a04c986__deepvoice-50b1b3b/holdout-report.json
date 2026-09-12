@@ -1,0 +1,379 @@
+{
+  "lock": {
+    "selection_sha256": "effe063e9ae559b85764155d006522cc404a793b539463e107c7b836d11c30f8",
+    "manifest_sha256": "1c9eecb30b0754eafb7c35832b6fbbd64b96b96b27505045192dc60fa72c7a1a",
+    "selected": "AASIST-head",
+    "thresholds": {
+      "xlsr": 0.8214493393898012,
+      "AASIST": 0.9991714954376222,
+      "AASIST-head": 0.7676075931865732,
+      "AASIST-L": 0.9994983673095704,
+      "AASIST-L-head": 0.7717488350058754
+    },
+    "comparison": "Full external corpus, locked policies; no model reselection from this output"
+  },
+  "dataset": {
+    "dataset": "SpeechAntiSpoofingBenchmarks/DeepVoice",
+    "revision": "50b1b3b92f37dadcec3c4f0a1f9a9c3f577605d0",
+    "license": "MIT",
+    "language": "en",
+    "original_source": "https://www.kaggle.com/datasets/birdy654/deep-voice-deepfake-voice-recognition",
+    "paper": "https://arxiv.org/abs/2308.12734",
+    "label_mapping": {
+      "0": "real",
+      "1": "synthetic"
+    },
+    "full_counts": {
+      "synthetic": 4425,
+      "real": 628
+    },
+    "unique_counts": {
+      "synthetic": 4425,
+      "real": 628
+    },
+    "duplicates": [],
+    "shards": {
+      "test-00000-of-00002.parquet": [
+        280822155,
+        "d626dfb8daff4ecf525062281ec5e46ade829d66cebdfa22dc62ac4e5bac94c6"
+      ],
+      "test-00001-of-00002.parquet": [
+        269593868,
+        "e70c8242f508c530013453c014e22cc8ecc5ebdb7c409958398a1168b3d9297e"
+      ]
+    },
+    "limitations": [
+      "English; eight public figures; correlated fragments, not independent people",
+      "RVC conversions only; not phishing intent labels",
+      "No fitting or threshold selection permitted on this holdout",
+      "Model training overlap unknown; publisher license is not verified individual consent",
+      "Group identifiers inferred from source filenames; not a validated speaker-disjoint protocol"
+    ]
+  },
+  "candidates": {
+    "xlsr": {
+      "at_validation_threshold": {
+        "threshold": 0.8214493393898012,
+        "positive_label": "synthetic",
+        "total": 5053,
+        "classified": 5043,
+        "coverage": 0.9980209776370473,
+        "class_totals": {
+          "real": 628,
+          "synthetic": 4425
+        },
+        "confusion": {
+          "tp": 45,
+          "fn": 4371,
+          "fp": 0,
+          "tn": 627
+        },
+        "abstained": {
+          "real": 1,
+          "synthetic": 9
+        },
+        "errors": 3,
+        "precision": 1.0,
+        "recall": 0.010190217391304348,
+        "specificity": 1.0,
+        "fpr": 0.0,
+        "fnr": 0.9898097826086957,
+        "accuracy": 0.13325401546698393,
+        "balanced_accuracy": 0.5050951086956522,
+        "synthetic_detection_rate_all": 0.010169491525423728,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "at_0.5": {
+        "threshold": 0.5,
+        "positive_label": "synthetic",
+        "total": 5053,
+        "classified": 5043,
+        "coverage": 0.9980209776370473,
+        "class_totals": {
+          "real": 628,
+          "synthetic": 4425
+        },
+        "confusion": {
+          "tp": 228,
+          "fn": 4188,
+          "fp": 1,
+          "tn": 626
+        },
+        "abstained": {
+          "real": 1,
+          "synthetic": 9
+        },
+        "errors": 3,
+        "precision": 0.9956331877729258,
+        "recall": 0.051630434782608696,
+        "specificity": 0.9984051036682615,
+        "fpr": 0.001594896331738437,
+        "fnr": 0.9483695652173914,
+        "accuracy": 0.16934364465595875,
+        "balanced_accuracy": 0.5250177692254351,
+        "synthetic_detection_rate_all": 0.05152542372881356,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      }
+    },
+    "AASIST": {
+      "at_validation_threshold": {
+        "threshold": 0.9991714954376222,
+        "positive_label": "synthetic",
+        "total": 5053,
+        "classified": 5033,
+        "coverage": 0.9960419552740946,
+        "class_totals": {
+          "real": 628,
+          "synthetic": 4425
+        },
+        "confusion": {
+          "tp": 233,
+          "fn": 4174,
+          "fp": 32,
+          "tn": 594
+        },
+        "abstained": {
+          "real": 2,
+          "synthetic": 18
+        },
+        "errors": 3,
+        "precision": 0.879245283018868,
+        "recall": 0.052870433401406854,
+        "specificity": 0.9488817891373802,
+        "fpr": 0.051118210862619806,
+        "fnr": 0.9471295665985932,
+        "accuracy": 0.16431551758394597,
+        "balanced_accuracy": 0.5008761112693936,
+        "synthetic_detection_rate_all": 0.05265536723163842,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "at_0.5": {
+        "threshold": 0.5,
+        "positive_label": "synthetic",
+        "total": 5053,
+        "classified": 5033,
+        "coverage": 0.9960419552740946,
+        "class_totals": {
+          "real": 628,
+          "synthetic": 4425
+        },
+        "confusion": {
+          "tp": 2266,
+          "fn": 2141,
+          "fp": 281,
+          "tn": 345
+        },
+        "abstained": {
+          "real": 2,
+          "synthetic": 18
+        },
+        "errors": 3,
+        "precision": 0.8896741264232431,
+        "recall": 0.5141819832085319,
+        "specificity": 0.5511182108626198,
+        "fpr": 0.4488817891373802,
+        "fnr": 0.48581801679146813,
+        "accuracy": 0.5187760778859527,
+        "balanced_accuracy": 0.5326500970355759,
+        "synthetic_detection_rate_all": 0.512090395480226,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      }
+    },
+    "AASIST-head": {
+      "at_validation_threshold": {
+        "threshold": 0.7676075931865732,
+        "positive_label": "synthetic",
+        "total": 5053,
+        "classified": 5033,
+        "coverage": 0.9960419552740946,
+        "class_totals": {
+          "real": 628,
+          "synthetic": 4425
+        },
+        "confusion": {
+          "tp": 2828,
+          "fn": 1579,
+          "fp": 309,
+          "tn": 317
+        },
+        "abstained": {
+          "real": 2,
+          "synthetic": 18
+        },
+        "errors": 3,
+        "precision": 0.901498246732547,
+        "recall": 0.6417063762196505,
+        "specificity": 0.5063897763578274,
+        "fpr": 0.4936102236421725,
+        "fnr": 0.35829362378034946,
+        "accuracy": 0.6248758195907014,
+        "balanced_accuracy": 0.574048076288739,
+        "synthetic_detection_rate_all": 0.6390960451977401,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "at_0.5": {
+        "threshold": 0.5,
+        "positive_label": "synthetic",
+        "total": 5053,
+        "classified": 5033,
+        "coverage": 0.9960419552740946,
+        "class_totals": {
+          "real": 628,
+          "synthetic": 4425
+        },
+        "confusion": {
+          "tp": 3156,
+          "fn": 1251,
+          "fp": 333,
+          "tn": 293
+        },
+        "abstained": {
+          "real": 2,
+          "synthetic": 18
+        },
+        "errors": 3,
+        "precision": 0.9045571797076526,
+        "recall": 0.7161334240980258,
+        "specificity": 0.4680511182108626,
+        "fpr": 0.5319488817891374,
+        "fnr": 0.2838665759019741,
+        "accuracy": 0.6852771706735545,
+        "balanced_accuracy": 0.5920922711544442,
+        "synthetic_detection_rate_all": 0.7132203389830508,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      }
+    },
+    "AASIST-L": {
+      "at_validation_threshold": {
+        "threshold": 0.9994983673095704,
+        "positive_label": "synthetic",
+        "total": 5053,
+        "classified": 5033,
+        "coverage": 0.9960419552740946,
+        "class_totals": {
+          "real": 628,
+          "synthetic": 4425
+        },
+        "confusion": {
+          "tp": 350,
+          "fn": 4057,
+          "fp": 15,
+          "tn": 611
+        },
+        "abstained": {
+          "real": 2,
+          "synthetic": 18
+        },
+        "errors": 3,
+        "precision": 0.958904109589041,
+        "recall": 0.07941910596777853,
+        "specificity": 0.9760383386581469,
+        "fpr": 0.023961661341853034,
+        "fnr": 0.9205808940322214,
+        "accuracy": 0.19093979733757202,
+        "balanced_accuracy": 0.5277287223129628,
+        "synthetic_detection_rate_all": 0.07909604519774012,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "at_0.5": {
+        "threshold": 0.5,
+        "positive_label": "synthetic",
+        "total": 5053,
+        "classified": 5033,
+        "coverage": 0.9960419552740946,
+        "class_totals": {
+          "real": 628,
+          "synthetic": 4425
+        },
+        "confusion": {
+          "tp": 2586,
+          "fn": 1821,
+          "fp": 387,
+          "tn": 239
+        },
+        "abstained": {
+          "real": 2,
+          "synthetic": 18
+        },
+        "errors": 3,
+        "precision": 0.8698284561049445,
+        "recall": 0.5867937372362151,
+        "specificity": 0.3817891373801917,
+        "fpr": 0.6182108626198083,
+        "fnr": 0.4132062627637849,
+        "accuracy": 0.5612954500298033,
+        "balanced_accuracy": 0.4842914373082034,
+        "synthetic_detection_rate_all": 0.584406779661017,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      }
+    },
+    "AASIST-L-head": {
+      "at_validation_threshold": {
+        "threshold": 0.7717488350058754,
+        "positive_label": "synthetic",
+        "total": 5053,
+        "classified": 5033,
+        "coverage": 0.9960419552740946,
+        "class_totals": {
+          "real": 628,
+          "synthetic": 4425
+        },
+        "confusion": {
+          "tp": 1750,
+          "fn": 2657,
+          "fp": 106,
+          "tn": 520
+        },
+        "abstained": {
+          "real": 2,
+          "synthetic": 18
+        },
+        "errors": 3,
+        "precision": 0.9428879310344828,
+        "recall": 0.3970955298388927,
+        "specificity": 0.8306709265175719,
+        "fpr": 0.16932907348242812,
+        "fnr": 0.6029044701611074,
+        "accuracy": 0.4510232465726207,
+        "balanced_accuracy": 0.6138832281782323,
+        "synthetic_detection_rate_all": 0.3954802259887006,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      },
+      "at_0.5": {
+        "threshold": 0.5,
+        "positive_label": "synthetic",
+        "total": 5053,
+        "classified": 5033,
+        "coverage": 0.9960419552740946,
+        "class_totals": {
+          "real": 628,
+          "synthetic": 4425
+        },
+        "confusion": {
+          "tp": 2059,
+          "fn": 2348,
+          "fp": 147,
+          "tn": 479
+        },
+        "abstained": {
+          "real": 2,
+          "synthetic": 18
+        },
+        "errors": 3,
+        "precision": 0.9333635539437897,
+        "recall": 0.4672112548218743,
+        "specificity": 0.7651757188498403,
+        "fpr": 0.23482428115015974,
+        "fnr": 0.5327887451781257,
+        "accuracy": 0.5042718060798729,
+        "balanced_accuracy": 0.6161934868358573,
+        "synthetic_detection_rate_all": 0.4653107344632768,
+        "metrics_population": "classified_only_except_coverage_and_synthetic_detection_rate_all"
+      }
+    }
+  },
+  "promotion_gate": {
+    "rule": "selected external FPR <= 5%, recall > baseline at 0.5, no inference errors, full coverage",
+    "passed": false
+  }
+}
