@@ -1,0 +1,47 @@
+name: Phone pilot APK
+on:
+  push:
+    branches: [codex/mobile-call-pilot]
+  pull_request:
+    branches: [main]
+    paths: ['apps/mobile/**', 'backend/**', 'tests/test_phone_pilot.py', '.github/workflows/phone-pilot.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: phone-pilot-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v3
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.13'
+      - run: gradle --no-daemon -p apps/mobile testDebugUnitTest lintDebug assembleDebug
+      - name: Package installable debug APK
+        run: |
+          mkdir -p artifacts
+          cp apps/mobile/app/build/outputs/apk/debug/app-debug.apk artifacts/VoiceZeroTrust-pilot.apk
+          sha256sum artifacts/VoiceZeroTrust-pilot.apk > artifacts/SHA256SUMS.txt
+          cp docs/phone-pilot.md artifacts/INSTALL.md
+      - uses: actions/upload-artifact@v4
+        with:
+          name: VoiceZeroTrust-Android-APK
+          path: artifacts/
+          retention-days: 30
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install fastapi==0.115.12 httpx==0.28.1 pytest==8.4.2
+      - run: python -m pytest tests/test_phone_pilot.py -q

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VoiceZeroTrust · PC 통화 상대</title>
+<style>
+body{font:17px/1.65 system-ui,sans-serif;background:#f4f7fb;color:#18344d;max-width:740px;margin:40px auto;padding:20px}h1{line-height:1.2}label{display:block;margin-top:16px}input,button{font:inherit;padding:12px;box-sizing:border-box;border:1px solid #b4c4d0;border-radius:8px}input{width:100%}button{cursor:pointer;margin:20px 8px 0 0;background:#174d70;color:white}button:disabled{opacity:.5}pre{white-space:pre-wrap;word-break:break-word;background:white;padding:20px;border-radius:12px}small{color:#506675}
+</style>
+<h1>휴대폰 ↔ PC 실험 통화</h1>
+<p>PC를 상대방으로 사용합니다. 휴대폰과 같은 연결 키·방 이름을 입력하세요. PC에서는 <code>http://localhost:8765</code>로 열어야 마이크가 동작합니다. 이어폰을 사용하면 울림이 줄어듭니다.</p>
+<label for="token">서버 연결 키</label><input id="token" type="password" autocomplete="off">
+<label for="room">방 이름</label><input id="room" value="phone-test" maxlength="40">
+<button id="join">통화 참여</button><button id="end" disabled>종료</button>
+<pre id="status" role="status">연결 대기</pre>
+<small>PC는 음성 송수신만 합니다. 자동·수동 판별은 휴대폰에서 확인하세요. 일반 전화번호 수신은 지원하지 않는 LAN 통화 실험입니다.</small>
+<script>
+'use strict';
+const statusBox=document.querySelector('#status'), join=document.querySelector('#join'), end=document.querySelector('#end');
+let socket, context, stream, processor, source, silent, ping, playAt=0;
+let ending=false;
+function show(text){statusBox.textContent=text;}
+function stop(message='통화 종료'){
+  ending=true;
+  clearInterval(ping);
+  if(socket){socket.onclose=null;socket.close();socket=null;}
+  if(processor)processor.disconnect();
+  if(source)source.disconnect();
+  if(silent)silent.disconnect();
+  if(stream)stream.getTracks().forEach(t=>t.stop());
+  if(context)context.close();
+  stream=context=processor=source=silent=null;
+  join.disabled=false;end.disabled=true;show(message);
+}
+end.onclick=()=>stop();
+window.addEventListener('pagehide',()=>stop());
+join.onclick=async()=>{
+  const room=document.querySelector('#room').value,key=document.querySelector('#token').value;
+  if(!/^[A-Za-z0-9-]{4,40}$/.test(room)||key.length<16){show('방 이름 4~40자와 16자 이상의 연결 키를 확인하세요.');return;}
+  join.disabled=true;ending=false;
+  try{
+    stream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true,channelCount:1},video:false});
+    context=new AudioContext({sampleRate:16000});await context.resume();
+    if(context.sampleRate!==16000)throw Error('이 브라우저는 16kHz AudioContext를 지원하지 않습니다. Chrome 또는 Edge를 사용하세요.');
+    socket=new WebSocket(`${location.protocol==='https:'?'wss':'ws'}://${location.host}/call/${room}`);
+    socket.binaryType='arraybuffer';
+    let connected=false;
+    source=context.createMediaStreamSource(stream);
+    // Small desktop-only pilot. Native Android uses AudioRecord/AudioTrack.
+    processor=context.createScriptProcessor(1024,1,1);
+    silent=context.createGain();silent.gain.value=0;
+    processor.onaudioprocess=event=>{
+      if(!connected||!socket||socket.readyState!==WebSocket.OPEN)return;
+      if(socket.bufferedAmount>32000){stop('네트워크 지연. 다시 연결하세요.');return;}
+      const floats=event.inputBuffer.getChannelData(0),pcm=new ArrayBuffer(floats.length*2),view=new DataView(pcm);
+      for(let i=0;i<floats.length;i++)view.setInt16(i*2,Math.round(Math.max(-1,Math.min(1,floats[i]))*32767),true);
+      socket.send(pcm);
+    };
+    source.connect(processor);processor.connect(silent);silent.connect(context.destination);
+    socket.onopen=()=>{socket.send(JSON.stringify({token:key,automatic:false}));};
+    socket.onmessage=event=>{
+      if(typeof event.data==='string'){
+        const msg=JSON.parse(event.data);
+        if(msg.type==='waiting'){socket.send(JSON.stringify({type:'ready'}));show('휴대폰 연결 대기');end.disabled=false;}
+        if(msg.type==='connected'){connected=true;show('실제 음성 통화 연결됨. PC에서 말하고 휴대폰의 10초 분석 결과를 확인하세요.');}
+        if(msg.type==='ended')stop(msg.message);
+        if(msg.type==='error')show(msg.message);
+        return;
+      }
+      if(!context||!connected)return;
+      const view=new DataView(event.data),buffer=context.createBuffer(1,view.byteLength/2,16000),samples=buffer.getChannelData(0);
+      for(let i=0;i<samples.length;i++)samples[i]=view.getInt16(i*2,true)/32768;
+      if(playAt>context.currentTime+.5)playAt=context.currentTime;
+      playAt=Math.max(context.currentTime+.02,playAt);
+      const output=context.createBufferSource();output.buffer=buffer;output.connect(context.destination);output.start(playAt);playAt+=buffer.duration;
+    };
+    socket.onerror=()=>stop('서버 연결 실패. 연결 키와 서버 실행 상태를 확인하세요.');
+    socket.onclose=event=>{if(!ending)stop(`연결 종료 (${event.code}). 연결 키·방 인원·상대방 상태를 확인하세요.`);};
+    ping=setInterval(()=>{if(socket?.readyState===WebSocket.OPEN)socket.send(JSON.stringify({type:'ping'}));},15000);
+  }catch(error){stop(`통화 준비 실패: ${error.message}`);}
+};
+</script>
+</html>

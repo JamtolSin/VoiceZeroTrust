@@ -1,4 +1,9 @@
 # Byte-compiled / optimized / DLL files
+**/.gradle/
+**/local.properties
+*.apk
+*.jks
+.tools/
 __pycache__/
 *.py[codz]
 *$py.class
