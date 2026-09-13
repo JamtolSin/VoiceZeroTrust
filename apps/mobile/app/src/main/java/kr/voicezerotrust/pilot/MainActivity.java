@@ -48,6 +48,7 @@ public class MainActivity extends Activity {
         server = field(body, "서버 주소", "http://192.168.1.10:8765", false);
         room = field(body, "방 이름", "phone-test", false);
         token = field(body, "서버 연결 키 (PC 실행 화면)", "", true);
+        server.setId(R.id.server); room.setId(R.id.room); token.setId(R.id.token);
         server.setText(getPreferences(MODE_PRIVATE).getString("server", ""));
         room.setText(getPreferences(MODE_PRIVATE).getString("room", "phone-test"));
         text(body, "첫 10초 자동 분석 / 버튼을 누른 뒤 10초 재분석. 분석 구간 외 음성은 탐지용으로 보관하지 않습니다. 통화를 위해 음성은 PC 서버를 경유합니다. HTTP 연결은 신뢰하는 테스트 네트워크에서만 사용하세요.", 14);
@@ -62,9 +63,11 @@ public class MainActivity extends Activity {
             Intent intent = new Intent(this, CallService.class).setAction("ANALYZE");
             startService(intent);
         });
+        connect.setId(R.id.connect); analyze.setId(R.id.analyze);
         button(body, "통화 종료 · 수집 중단", () -> stopService(new Intent(this, CallService.class)));
         button(body, "일반 전화 접근 가능 여부", this::cellularCheck);
         status = text(body, "연결 대기", 19);
+        status.setId(R.id.status);
         report = text(body, "분석 결과가 여기에 표시됩니다.", 15);
         report.setTextIsSelectable(true);
         button(body, "테스트 결과 공유", () -> {

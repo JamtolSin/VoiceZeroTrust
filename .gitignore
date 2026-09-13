@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 **/.gradle/
+.venv-phone/
 **/local.properties
 *.apk
 *.jks

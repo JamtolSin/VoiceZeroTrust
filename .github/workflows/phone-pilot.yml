@@ -45,3 +45,35 @@ jobs:
           python-version: '3.11'
       - run: pip install fastapi==0.115.12 httpx==0.28.1 pytest==8.4.2
       - run: python -m pytest tests/test_phone_pilot.py -q
+  emulator:
+    needs: android
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install fastapi==0.115.12 uvicorn==0.34.2 websockets==15.0.1
+      - uses: actions/download-artifact@v4
+        with:
+          name: VoiceZeroTrust-Android-APK
+          path: artifacts
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 35
+          arch: x86_64
+          profile: pixel_6
+          disable-animations: true
+          script: python scripts/smoke_android.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Android-emulator-evidence
+          path: artifacts/emulator-*
+          retention-days: 30
