@@ -1,5 +1,3 @@
-import time
-
 import pytest
 from fastapi.testclient import TestClient
 from starlette.websockets import WebSocketDisconnect
@@ -8,6 +6,14 @@ from backend.server import create_app
 from backend.window import MAX_BYTES, Window
 
 TOKEN = "phone-pilot-test-key-123456"
+
+
+def test_user_supplied_unicode_connection_key():
+    key = "테스트-사용자-연결키-1234567890"
+    with TestClient(create_app(token=key)) as client:
+        with client.websocket_connect("/call/test-room") as ws:
+            ws.send_json({"token": key})
+            assert ws.receive_json()["type"] == "waiting"
 
 
 def authenticate(ws, automatic=True):

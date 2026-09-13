@@ -129,7 +129,7 @@ def create_app(token=None, analyzer=None, duration=SECONDS):
                 await ws.close(code=1008, reason="Invalid authentication message")
                 return
             supplied = auth.get("token", "")
-            if not isinstance(supplied, str) or not hmac.compare_digest(supplied, token):
+            if not isinstance(supplied, str) or not hmac.compare_digest(supplied.encode("utf-8"), token.encode("utf-8")):
                 await ws.close(code=1008, reason="Authentication failed")
                 return
             if not re.fullmatch(r"[A-Za-z0-9-]{4,40}", room):
