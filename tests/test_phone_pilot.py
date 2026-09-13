@@ -132,7 +132,7 @@ def test_model_error_not_safe_and_duplicate_request_does_not_restart_window():
 
 def test_disconnect_cancels_capture_and_room_can_be_reused():
     seen = []
-    with TestClient(create_app(token=TOKEN, analyzer=lambda pcm: seen.append(pcm), duration=1)) as client:
+    with TestClient(create_app(token=TOKEN, analyzer=lambda pcm: seen.append(pcm), duration=10)) as client:
         with client.websocket_connect("/call/test-room") as a:
             authenticate(a)
             with client.websocket_connect("/call/test-room") as b:

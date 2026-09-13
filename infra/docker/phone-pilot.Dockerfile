@@ -1,7 +1,8 @@
 FROM python:3.11-slim
 WORKDIR /app
 COPY backend/requirements.txt /app/backend/requirements.txt
-RUN pip install --no-cache-dir -r backend/requirements.txt
+RUN pip install --no-cache-dir torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu \
+    && pip install --no-cache-dir -r backend/requirements.txt
 COPY src /app/src
 COPY backend /app/backend
 COPY scripts/start_phone_pilot.py /app/scripts/start_phone_pilot.py

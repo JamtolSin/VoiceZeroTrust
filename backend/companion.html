@@ -37,13 +37,11 @@ window.addEventListener('pagehide',()=>stop());
 join.onclick=async()=>{
   const room=document.querySelector('#room').value,key=document.querySelector('#token').value;
   if(!/^[A-Za-z0-9-]{4,40}$/.test(room)||key.length<16){show('방 이름 4~40자와 16자 이상의 연결 키를 확인하세요.');return;}
-  join.disabled=true;ending=false;
+  join.disabled=true;end.disabled=false;ending=false;show('마이크와 연결을 준비 중입니다.');
   try{
     stream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true,channelCount:1},video:false});
     context=new AudioContext({sampleRate:16000});await context.resume();
     if(context.sampleRate!==16000)throw Error('이 브라우저는 16kHz AudioContext를 지원하지 않습니다. Chrome 또는 Edge를 사용하세요.');
-    socket=new WebSocket(`${location.protocol==='https:'?'wss':'ws'}://${location.host}/call/${room}`);
-    socket.binaryType='arraybuffer';
     let connected=false;
     source=context.createMediaStreamSource(stream);
     await context.audioWorklet.addModule('/audio-worklet.js');
@@ -55,6 +53,8 @@ join.onclick=async()=>{
       socket.send(event.data);
     };
     source.connect(processor);processor.connect(silent);silent.connect(context.destination);
+    socket=new WebSocket(`${location.protocol==='https:'?'wss':'ws'}://${location.host}/call/${room}`);
+    socket.binaryType='arraybuffer';
     socket.onopen=()=>{socket.send(JSON.stringify({token:key,automatic:false}));};
     socket.onmessage=event=>{
       if(typeof event.data==='string'){

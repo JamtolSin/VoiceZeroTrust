@@ -187,23 +187,32 @@ def create_app(token=None, analyzer=None, duration=SECONDS):
         except (WebSocketDisconnect, asyncio.TimeoutError, ValueError, RuntimeError):
             pass
         finally:
-            participant["closed"] = True
-            if participant["window"] is not None:
-                participant["window"].take()
-                participant["window"] = None
-            # Let an already running inference release its semaphore before another starts.
-            if not participant["busy"]:
-                for task in list(tasks):
-                    task.cancel()
             peers = rooms.get(room, [])
+            remaining = []
             if participant in peers:
-                peers.remove(participant)
-                for peer in list(peers):
+                remaining = [peer for peer in peers if peer is not participant]
+                rooms.pop(room, None)
+            # Tear down both capture windows before network awaits or task cancellation.
+            for peer in [participant, *remaining]:
+                peer["closed"] = True
+                if peer["window"] is not None:
+                    peer["window"].take()
+                    peer["window"] = None
+                # Running CPU inference owns its semaphore until it actually finishes.
+                if not peer["busy"] and peer["timer"] is not None:
+                    peer["timer"].cancel()
+
+            async def close_connections():
+                for peer in remaining:
                     try:
                         await send(peer, {"type": "ended", "message": "상대방이 통화를 종료했습니다."})
                         await peer["ws"].close(code=1000)
-                    except (RuntimeError, WebSocketDisconnect):
+                    except (RuntimeError, WebSocketDisconnect, asyncio.TimeoutError):
                         pass
-                if not peers:
-                    rooms.pop(room, None)
+                try:
+                    await ws.close(code=1000)
+                except (RuntimeError, WebSocketDisconnect):
+                    pass
+
+            await asyncio.shield(close_connections())
     return app

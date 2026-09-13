@@ -23,10 +23,11 @@ public class MainActivity extends Activity {
     private final Handler handler = new Handler();
     private final Runnable refresh = new Runnable() {
         @Override public void run() {
-            status.setText(CallService.status);
-            report.setText(CallService.report);
-            connect.setEnabled(!CallService.active);
-            analyze.setEnabled(CallService.connected && !CallService.analyzing);
+            if (!status.getText().toString().equals(CallService.status)) status.setText(CallService.status);
+            if (!report.getText().toString().equals(CallService.report)) report.setText(CallService.report);
+            if (connect.isEnabled() == CallService.active) connect.setEnabled(!CallService.active);
+            boolean canAnalyze = CallService.connected && !CallService.analyzing;
+            if (analyze.isEnabled() != canAnalyze) analyze.setEnabled(canAnalyze);
             handler.postDelayed(this, 300);
         }
     };
