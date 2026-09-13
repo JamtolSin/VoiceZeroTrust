@@ -1,2 +1,7 @@
 # Preserve archived experiment bytes so SHA-256 checksums survive every checkout.
 experiments/** -text
+# These experiment recipes are byte-hashed in the v4 run locks.
+scripts/prepare_dsd.py -text
+scripts/prepare_dsd_korean.py -text
+scripts/train_dsd_korean.py -text
+scripts/evaluate_dsd_korean.py -text

@@ -18,12 +18,14 @@ def build_app(service=None):
     injected_service = service
     services = {"baseline": service or DetectionService(acoustic=build_profile("baseline"), workdir=RUNTIME / "requests")}
 
-    def analyze(path, transcript, asr, acoustic, profile):
+    def analyze(path, transcript, asr, acoustic, profile, research):
         try:
-            if profile not in {"baseline", "candidate"}:
+            if profile not in {"baseline", "candidate", "korean-research"}:
                 raise ValueError("지원하지 않는 탐지 프로필입니다.")
+            if profile == "korean-research" and research is not True:
+                raise ValueError("한국어 후보는 비상업 연구·평가 용도 확인이 필요합니다.")
             if profile not in services:
-                services[profile] = injected_service or DetectionService(acoustic=build_profile(profile), workdir=RUNTIME / "requests")
+                services[profile] = injected_service or DetectionService(acoustic=build_profile(profile, allow_noncommercial=research), workdir=RUNTIME / "requests")
             report = services[profile].analyze(path, transcript=transcript or None,
                                      enable_asr=asr, enable_acoustic=acoustic)
             acoustic_result = report["acoustic"]
@@ -54,9 +56,11 @@ def build_app(service=None):
                     placeholder="입력하면 자동 전사 대신 이 텍스트를 분석합니다. 음성과 일치하는지 확인해 주세요.")
                 asr = gr.Checkbox(value=True, label="대사가 없으면 한국어 자동 전사")
                 acoustic = gr.Checkbox(value=True, label="합성 음향 흔적 분석")
-                profile = gr.Dropdown(choices=[("기준 모델 · XLS-R", "baseline"), ("연구 후보 · AASIST + 학습 분류기", "candidate")],
+                profile = gr.Dropdown(choices=[("기준 모델 · XLS-R", "baseline"), ("영어 연구 후보 · v2", "candidate"), ("한국어 연구 후보 · v4 · 비상업용", "korean-research")],
                                       value="baseline", label="탐지 프로필 (후보는 실험용)")
-                gr.Markdown("기본 모델은 유지합니다. 연구 후보는 영어 데이터로 분류기만 학습했으며 한국어·실전 통화 성능은 보장하지 않습니다.")
+                research = gr.Checkbox(value=False, label="한국어 후보를 비상업 연구·평가에만 사용합니다")
+                gr.Markdown("기본 모델은 유지합니다. 한국어 v4는 DSD 자료로 분류기만 학습한 연구 후보이며 실제 통화 안전성을 보장하지 않습니다.")
+                gr.Markdown("v4 연구 결과: 전체 합성 탐지율 91.24% / 오탐률 3.29%. 단, MMSTTS 탐지율 13%, 잡음 부분집합 오탐률 75%로 품질 기준 미달입니다.")
                 gr.Markdown("처음에는 공개 모델을 다운로드하므로 시간이 걸립니다. 음성은 외부 분석 API로 보내지 않습니다.")
                 run = gr.Button("분석하기", variant="primary")
                 status = gr.Textbox(label="진행 상태", interactive=False)
@@ -73,7 +77,7 @@ def build_app(service=None):
                     "- 대화 분석은 학습 모델이 아닌 설명 가능한 규칙 기반 MVP입니다. 자동 전사 오류와 인용·교육 맥락 때문에 오탐/미탐이 가능합니다.\n"
                     "- 미검출·분석 실패는 안전 판정이 아닙니다. 송금·앱 설치·인증정보 요구는 알고 있는 별도 채널로 확인하세요.\n"
                     "- 입력 캐시는 최대 약 16분 후 정리됩니다. 강제 종료 시 남을 수 있습니다.")
-        run.click(analyze, [audio, transcript, asr, acoustic, profile], [report, status, acoustic_result, content_result, evidence],
+        run.click(analyze, [audio, transcript, asr, acoustic, profile, research], [report, status, acoustic_result, content_result, evidence],
                   concurrency_limit=1, api_visibility="private")
     return demo.queue(default_concurrency_limit=1, max_size=4)
 

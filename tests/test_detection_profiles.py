@@ -92,3 +92,24 @@ def test_missing_candidate_is_not_silent_baseline(monkeypatch):
 def test_unknown_profile_rejected():
     with pytest.raises(ValueError):
         profiles.build_profile("automatic")
+
+
+def test_korean_scope_required_before_loading(monkeypatch):
+    path = Mock()
+    path.read_text.side_effect = AssertionError("Must not read before scope acknowledgement")
+    monkeypatch.setattr(profiles, "KOREAN_PATH", path)
+    with pytest.raises(ValueError, match="비상업"):
+        profiles.build_profile("korean-research")
+
+
+def test_korean_profile_is_explicit_research_only(monkeypatch):
+    backend = prepare(monkeypatch, config())
+    path = Mock()
+    path.read_text.return_value = json.dumps(config(research_only=True, release="v0.4.0-detection.1"))
+    monkeypatch.setattr(profiles, "KOREAN_PATH", path)
+    result = profiles.build_profile("korean-research", allow_noncommercial=True)
+    assert result.name == "korean-research"
+    assert result.release == "v0.4.0-detection.1"
+    path.read_text.return_value = json.dumps(config(research_only=True, promotion_passed=True))
+    with pytest.raises(ValueError, match="restriction"):
+        profiles.build_profile("korean-research", allow_noncommercial=True)
