@@ -1,0 +1,11 @@
+.git
+.runtime
+.venv*
+**/__pycache__
+**/.gradle
+**/build
+experiments
+releases
+*.apk
+*.zip
+node_modules

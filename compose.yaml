@@ -1,0 +1,17 @@
+services:
+  phone-pilot:
+    build:
+      context: .
+      dockerfile: infra/docker/phone-pilot.Dockerfile
+    ports:
+      - "8765:8765"
+    environment:
+      VZT_TOKEN: ${VZT_TOKEN:?Set a random connection key of at least 16 characters}
+      VZT_PROFILE: ${VZT_PROFILE:-baseline}
+      VZT_ASR: ${VZT_ASR:-1}
+      HF_HOME: /home/pilot/.cache/huggingface
+    volumes:
+      - pilot-models:/home/pilot/.cache/huggingface
+    restart: "no"
+volumes:
+  pilot-models:

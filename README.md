@@ -1,5 +1,12 @@
 # VoiceZeroTrust
 
+## Android 실제 기기 통화 실험
+
+[APK 설치·PC 연결·첫 10초/수동 10초 검증 가이드](docs/phone-pilot.md)를 제공합니다.
+`Phone pilot APK` GitHub Actions의 `VoiceZeroTrust-Android-APK` artifact에서 설치 APK를 받습니다.
+이 단계는 휴대폰–PC 또는 두 Android 기기 간 실제 LAN 음성 통화이며, 기존 전화번호의 셀룰러 수신은 아직 지원하지 않습니다.
+기존 탐지 코드를 재사용하고, 실제 기기 확인이 끝나기 전에는 다음 단계로 넘어가지 않습니다.
+
 동의한 참여자의 짧은 음성으로 합성 음성을 체험하는 로컬 보안 교육 데모입니다.
 목소리만으로 신원을 판단하지 않고, 알고 있는 번호로 콜백하는 습관을 알립니다.
 

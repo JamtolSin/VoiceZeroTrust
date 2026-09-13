@@ -1,4 +1,12 @@
 # Byte-compiled / optimized / DLL files
+**/.gradle/
+.venv-phone/
+.playwright-cli/
+output/playwright/
+**/local.properties
+*.apk
+*.jks
+.tools/
 __pycache__/
 *.py[codz]
 *$py.class
