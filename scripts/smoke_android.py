@@ -35,8 +35,16 @@ def adb(*args):
 
 
 def snapshot():
-    adb("shell", "uiautomator", "dump", "/sdcard/window.xml")
-    return ET.fromstring(adb("shell", "cat", "/sdcard/window.xml"))
+    for _ in range(5):
+        try:
+            adb("shell", "uiautomator", "dump", "/sdcard/window.xml")
+            tree = ET.fromstring(adb("shell", "cat", "/sdcard/window.xml"))
+            if list(tree):
+                return tree
+        except (subprocess.CalledProcessError, ET.ParseError):
+            pass
+        time.sleep(1)
+    raise AssertionError("Android accessibility tree did not become ready")
 
 
 def tap_id(name):
@@ -74,7 +82,9 @@ def main():
     adb("shell", "pm", "grant", PACKAGE, "android.permission.RECORD_AUDIO")
     adb("shell", "pm", "grant", PACKAGE, "android.permission.POST_NOTIFICATIONS")
     adb("reverse", "tcp:8765", "tcp:8765")
-    adb("shell", "am", "start", "-n", PACKAGE + "/.MainActivity")
+    adb("shell", "input", "keyevent", "KEYCODE_WAKEUP")
+    adb("shell", "wm", "dismiss-keyguard")
+    print(adb("shell", "am", "start", "-W", "-n", PACKAGE + "/.MainActivity").decode(), flush=True)
     fill("server", "http://127.0.0.1:8765")
     fill("token", KEY)
     tap_id("connect")
@@ -138,4 +148,6 @@ if __name__ == "__main__":
         main()
     finally:
         evidence.mkdir(exist_ok=True)
-        (evidence / "emulator-logcat.txt").write_bytes(adb("logcat", "-d", "-t", "500"))
+        (evidence / "emulator-logcat.txt").write_bytes(adb("logcat", "-d", "-t", "2000"))
+        adb("shell", "screencap", "-p", "/sdcard/final.png")
+        adb("pull", "/sdcard/final.png", str(evidence / "emulator-final.png"))

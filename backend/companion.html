@@ -2,11 +2,13 @@
 <html lang="ko">
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>VoiceZeroTrust · PC 통화 상대</title>
+<link rel="icon" href="data:,">
 <style>
 body{font:17px/1.65 system-ui,sans-serif;background:#f4f7fb;color:#18344d;max-width:740px;margin:40px auto;padding:20px}h1{line-height:1.2}label{display:block;margin-top:16px}input,button{font:inherit;padding:12px;box-sizing:border-box;border:1px solid #b4c4d0;border-radius:8px}input{width:100%}button{cursor:pointer;margin:20px 8px 0 0;background:#174d70;color:white}button:disabled{opacity:.5}pre{white-space:pre-wrap;word-break:break-word;background:white;padding:20px;border-radius:12px}small{color:#506675}
 </style>
 <h1>휴대폰 ↔ PC 실험 통화</h1>
 <p>PC를 상대방으로 사용합니다. 휴대폰과 같은 연결 키·방 이름을 입력하세요. PC에서는 <code>http://localhost:8765</code>로 열어야 마이크가 동작합니다. 이어폰을 사용하면 울림이 줄어듭니다.</p>
+<p><a href="/apk">Android APK 다운로드</a> <small>(서버에 APK를 준비한 경우)</small></p>
 <label for="token">서버 연결 키</label><input id="token" type="password" autocomplete="off">
 <label for="room">방 이름</label><input id="room" value="phone-test" maxlength="40">
 <button id="join">통화 참여</button><button id="end" disabled>종료</button>
@@ -44,15 +46,13 @@ join.onclick=async()=>{
     socket.binaryType='arraybuffer';
     let connected=false;
     source=context.createMediaStreamSource(stream);
-    // Small desktop-only pilot. Native Android uses AudioRecord/AudioTrack.
-    processor=context.createScriptProcessor(1024,1,1);
+    await context.audioWorklet.addModule('/audio-worklet.js');
+    processor=new AudioWorkletNode(context,'pcm16-sender');
     silent=context.createGain();silent.gain.value=0;
-    processor.onaudioprocess=event=>{
+    processor.port.onmessage=event=>{
       if(!connected||!socket||socket.readyState!==WebSocket.OPEN)return;
       if(socket.bufferedAmount>32000){stop('네트워크 지연. 다시 연결하세요.');return;}
-      const floats=event.inputBuffer.getChannelData(0),pcm=new ArrayBuffer(floats.length*2),view=new DataView(pcm);
-      for(let i=0;i<floats.length;i++)view.setInt16(i*2,Math.round(Math.max(-1,Math.min(1,floats[i]))*32767),true);
-      socket.send(pcm);
+      socket.send(event.data);
     };
     source.connect(processor);processor.connect(silent);silent.connect(context.destination);
     socket.onopen=()=>{socket.send(JSON.stringify({token:key,automatic:false}));};

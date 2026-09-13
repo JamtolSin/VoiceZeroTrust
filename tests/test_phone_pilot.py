@@ -40,8 +40,14 @@ def test_server_requires_secret_and_rejects_wrong_auth():
     with TestClient(create_app(token=TOKEN)) as client:
         assert client.get("/health").json()["model_ready"] is False
         assert client.get("/").status_code == 200
+        assert client.get("/audio-worklet.js").status_code == 200
         with client.websocket_connect("/call/test-room") as ws:
             ws.send_json({"token": "wrong"})
+            with pytest.raises(WebSocketDisconnect) as exc:
+                ws.receive_json()
+            assert exc.value.code == 1008
+        with client.websocket_connect("/call/test-room") as ws:
+            ws.send_json(["invalid"])
             with pytest.raises(WebSocketDisconnect) as exc:
                 ws.receive_json()
             assert exc.value.code == 1008

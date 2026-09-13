@@ -8,7 +8,7 @@ import uuid
 import wave
 from pathlib import Path
 
-from fastapi import FastAPI, WebSocket, WebSocketDisconnect
+from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
 from fastapi.responses import FileResponse
 
 from backend.window import RATE, SECONDS, Window
@@ -51,6 +51,17 @@ def create_app(token=None, analyzer=None, duration=SECONDS):
     @app.get("/")
     async def companion():
         return FileResponse(Path(__file__).with_name("companion.html"))
+
+    @app.get("/audio-worklet.js")
+    async def audio_worklet():
+        return FileResponse(Path(__file__).with_name("audio-worklet.js"), media_type="text/javascript")
+
+    @app.get("/apk")
+    async def apk():
+        path = Path(__file__).resolve().parents[1] / ".runtime/phone-pilot/VoiceZeroTrust-pilot.apk"
+        if not path.is_file():
+            raise HTTPException(404, "APK not copied to .runtime/phone-pilot; use GitHub Actions artifact")
+        return FileResponse(path, media_type="application/vnd.android.package-archive", filename="VoiceZeroTrust-pilot.apk")
 
     @app.websocket("/call/{room}")
     async def call(ws: WebSocket, room: str):
@@ -114,6 +125,9 @@ def create_app(token=None, analyzer=None, duration=SECONDS):
         participant["start"] = start
         try:
             auth = await asyncio.wait_for(ws.receive_json(), 10)
+            if not isinstance(auth, dict):
+                await ws.close(code=1008, reason="Invalid authentication message")
+                return
             supplied = auth.get("token", "")
             if not isinstance(supplied, str) or not hmac.compare_digest(supplied, token):
                 await ws.close(code=1008, reason="Authentication failed")
@@ -138,6 +152,9 @@ def create_app(token=None, analyzer=None, duration=SECONDS):
                 if message.get("text") is not None:
                     import json
                     command = json.loads(message["text"])
+                    if not isinstance(command, dict):
+                        await ws.close(code=1008, reason="Invalid command")
+                        break
                     if command.get("type") == "ping":
                         await send(participant, {"type": "pong"})
                     elif command.get("type") == "ready":
