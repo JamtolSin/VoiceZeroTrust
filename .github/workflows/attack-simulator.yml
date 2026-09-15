@@ -1,0 +1,39 @@
+name: Attack Simulator
+
+on:
+  push:
+    paths:
+      - "attack-simulator/**"
+      - ".github/workflows/attack-simulator.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "attack-simulator/**"
+      - ".github/workflows/attack-simulator.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: attack-simulator-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: attack-simulator
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: attack-simulator/.node-version
+          cache: npm
+          cache-dependency-path: attack-simulator/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
