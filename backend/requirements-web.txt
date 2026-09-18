@@ -1,0 +1,4 @@
+-r requirements.txt
+qwen-tts==0.1.1
+torchaudio==2.8.0
+python-multipart>=0.0.20,<0.1
