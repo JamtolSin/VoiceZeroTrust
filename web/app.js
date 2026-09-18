@@ -3,8 +3,9 @@ let generated = null, audioUrl = null, running = false;
 $('endpoint').value = window.VZT_CONFIG?.endpoint || '';
 document.querySelectorAll('[data-page]').forEach(button => button.addEventListener('click', () => {
   document.querySelectorAll('.page').forEach(page => page.hidden = page.id !== button.dataset.page);
-  document.querySelectorAll('[data-page]').forEach(item => item.classList.toggle('active', item === button));
-  $('breadcrumb').textContent = button.dataset.page === 'lab' ? '실험실' : '모델 성능 비교';
+  document.querySelectorAll('nav [data-page]').forEach(item => item.classList.toggle('active', item.dataset.page === button.dataset.page));
+  $('breadcrumb').textContent = {home:'홈',lab:'실험실',benchmark:'모델 성능 비교'}[button.dataset.page];
+  window.scrollTo(0, 0);
 }));
 const rows = [ ['ElevenLabs',300,20.67,72,99], ['MMSTTS',200,99.5,100,13], ['MeloTTS',100,68,100,94], ['SeamlessM4T-TTS',153,88.89,88.89,98.04], ['VITS-AIHUB',1507,49.70,13.21,99.20] ];
 for (const [name,count,...rates] of rows) {
